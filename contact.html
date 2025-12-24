@@ -1,0 +1,487 @@
+﻿<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/jquery-ui.css" rel="stylesheet">
+    <!-- Bootstrap Icon CSS -->
+    <link href="assets/css/bootstrap-icons.css" rel="stylesheet">
+    <!-- CSS -->
+    <link href="assets/css/animate.min.css" rel="stylesheet">
+    <!-- FancyBox CSS -->
+    <link href="assets/css/jquery.fancybox.min.css" rel="stylesheet">
+    <!-- Swiper slider CSS -->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    <!-- Slick slider CSS -->
+    <link rel="stylesheet" href="assets/css/slick.css">
+    <link rel="stylesheet" href="assets/css/slick-theme.css">
+    <link rel="stylesheet" href="assets/css/daterangepicker.css">
+    <!-- BoxIcon  CSS -->
+    <link href="assets/css/boxicons.min.css" rel="stylesheet">
+    <!--  Style CSS  -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/toastr.min.css">
+    <!-- Title -->
+    <title>OneTrack - Logistics & Transportation</title>
+    <link rel="icon" href="assets/fav-icon.svg" type="image/gif" sizes="20x20">
+
+    <style>
+    body { font-family: 'Segoe UI', sans-serif; background:#f5f5f5; color:#222; }
+
+    /* HERO */
+    .hero {
+      background: linear-gradient(90deg,#0763a1,#29b389);
+      padding:120px 0;
+      color:#fff;
+      text-align:center;
+      position:relative;
+    }
+    .hero h1 { font-size:45px; font-weight:800; }
+
+    .glass {
+      margin-top:20px;
+      padding:15px 22px;
+      border-radius:12px;
+      background:rgba(255,255,255,0.12);
+      border:1px solid rgba(255,255,255,0.2);
+      backdrop-filter:blur(8px);
+      color:#fff;
+      display:inline-block;
+    }
+
+    /* FEATURES */
+    .feature-box {
+      background:#fff;
+      padding:25px;
+      border-radius:14px;
+      text-align:center;
+      box-shadow:0 6px 18px rgba(0,0,0,0.08);
+      height:100%;
+    }
+    .feature-box i { font-size:36px; color:#0763a1; margin-bottom:12px; }
+
+    /* SIDEBAR */
+    .sidebar .item {
+      padding:14px;
+      background:#fff;
+      border-radius:8px;
+      margin-bottom:10px;
+      font-weight:600;
+      border-left:5px solid transparent;
+      cursor:pointer;
+    }
+    .sidebar .active {
+      background:#fff3ec;
+      border-left-color:#ff6b00;
+      color:#ff6b00;
+    }
+
+    /* CONTENT */
+    .content-box {
+      background:#fff;
+      padding:30px;
+      border-radius:12px;
+      box-shadow:0 5px 16px rgba(0,0,0,0.07);
+    }
+    .content-box h2,h3 { font-weight:700; margin-top:25px; }
+
+    footer {
+      background:#0d0d0d;
+      color:#ddd;
+      padding:45px 0;
+      margin-top:60px;
+    }
+
+    .cta-btn {
+      background:#ff6b00;
+      color:#fff;
+      padding:12px 18px;
+      border-radius:8px;
+      text-decoration:none;
+    }
+
+
+
+    .contact-info-card {
+  /* background: linear-gradient(180deg,#ffffff,#f7f9fc); */
+  padding: 35px;
+  border-radius: 18px;
+  /* box-shadow: 0 12px 30px rgba(0,0,0,0.08); */
+  height: 100%;
+}
+
+.contact-info-card h2 {
+  font-weight: 800;
+}
+
+.contact-info-card .subtitle {
+  /* color: #666; */
+  margin-bottom: 30px;
+}
+
+.info-item {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 25px;
+}
+
+.info-item i {
+  font-size: 22px;
+  color: #1c80aa;
+  min-width: 40px;
+  height: 40px;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.info-item h6 {
+  margin: 0;
+  font-weight: 700;
+}
+
+.info-item p,
+.info-item a {
+  margin: 0;
+  color: #444;
+  text-decoration: none;
+}
+
+.support-box {
+  margin-top: 30px;
+  padding: 18px;
+  background: #0763a1;
+  color: #fff;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.support-box h6 {
+  margin-bottom: 5px;
+  font-weight: 700;
+}
+
+  </style>
+</head>
+
+<body class="tt-magic-cursor">
+
+    <div id="magic-cursor">
+        <div id="ball"></div>
+    </div>
+
+    <!-- Back To Top -->
+    <div class="progress-wrap">
+        <svg class="progress-circle svg-content" width="100%" height="100%" viewbox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"></path>
+        </svg>
+        <svg class="arrow" width="22" height="25" viewbox="0 0 24 23" xmlns="http://www.w3.org/2000/svg">
+            <path d="M0.556131 11.4439L11.8139 0.186067L13.9214 2.29352L13.9422 20.6852L9.70638 20.7061L9.76793 8.22168L3.6064 14.4941L0.556131 11.4439Z"></path>
+            <path d="M23.1276 11.4999L16.0288 4.40105L15.9991 10.4203L20.1031 14.5243L23.1276 11.4999Z"></path>
+        </svg>
+    </div>
+
+    <!-- header Section Start-->
+    <header class="header-area style-1 two bg-black mb-120">
+        <div class="container-fluid d-flex flex-nowrap align-items-center justify-content-between">
+            <div class="logo-and-menu-area">
+                <a href="index.html" class="header-logo">
+                    <img src="assets/img/home1/white_1.png" alt="">
+                </a>
+                <div class="main-menu">
+                    <div class="mobile-logo-area d-xl-none d-flex align-items-center justify-content-between">
+                        <a href="index.html" class="mobile-logo-wrap">
+                            <img src="assets/img/logo_sss.png" alt="">
+                        </a>
+                        <div class="menu-close-btn">
+                            <i class="bi bi-x"></i>
+                        </div>
+                    </div>
+                    <ul class="menu-list">
+                        <li class="menu-item-has-children">
+                            <a href="index.html" class="drop-down">
+                                Home
+                            </a>
+                        </li>
+                        <li class="menu-item-has-children">
+                            <a href="about.html" class="drop-down">
+                                About
+                            </a>
+                        </li>
+                        <li class="menu-item-has-children">
+                            <a href="#" class="drop-down">
+                                Services
+                                <i class="bi bi-caret-down-fill"></i>
+                            </a>
+                            <i class="bi bi-plus dropdown-icon"></i>
+                            <ul class="sub-menu">
+                                <li><a href="inland-service.html">Inland Services</a></li>
+                                <li><a href="ocean-freight.html">Ocean Freight</a></li>
+                                <li><a href="ocean-freight.html">Air Freight</a></li>
+                                <li><a href="custom-clearance.html">Custom Clearance</a></li>
+                                <li><a href="warehousing-transport-services.html">Warehousing</a></li>
+                                <li><a href="idc-cfs-service.html">IDC CFS Service</a></li>
+                                <li><a href="import-export-service.html">Import Export Service</a></li>
+                                <li><a href="contract-logistics.html">Contract Logistics</a></li>
+                                <li><a href="project-heavy-lift-logistics.html">Project Heavy Lift Logistics</a></li>
+                                <li><a href="cargo-insurance.html">Cargo Insurance</a></li>
+                                
+                               
+                            </ul>
+                        </li>
+
+                        <li class="menu-item-has-children">
+                            <a href="contact.html" class="drop-down">
+                                Contact
+                            </a>
+                        </li>
+                       
+                        
+                    </ul>
+                </div>
+            </div>
+            <div class="nav-right">
+                <div class="contact-area">
+                    
+                </div>
+                <div class="sidebar-button mobile-menu-btn">
+                    <svg width="20" height="18" viewbox="0 0 20 18" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1.29445 2.8421H10.5237C11.2389 2.8421 11.8182 2.2062 11.8182 1.42105C11.8182 0.635903 11.2389 0 10.5237 0H1.29445C0.579249 0 0 0.635903 0 1.42105C0 2.2062 0.579249 2.8421 1.29445 2.8421Z">
+                        </path>
+                        <path d="M1.23002 10.421H18.77C19.4496 10.421 20 9.78506 20 8.99991C20 8.21476 19.4496 7.57886 18.77 7.57886H1.23002C0.550421 7.57886 0 8.21476 0 8.99991C0 9.78506 0.550421 10.421 1.23002 10.421Z">
+                        </path>
+                        <path d="M18.8052 15.1579H10.2858C9.62563 15.1579 9.09094 15.7938 9.09094 16.5789C9.09094 17.3641 9.62563 18 10.2858 18H18.8052C19.4653 18 20 17.3641 20 16.5789C20 15.7938 19.4653 15.1579 18.8052 15.1579Z">
+                        </path>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- header Section End-->
+
+    <!-- Breadcrumb Section Start -->
+    <!-- <div class="breadcrumb-section">
+        <div class="container">
+            <div class="breadcrumb-content pb-60">
+                <h1>Get in Touch</h1>
+                <ul class="breadcrumb-list">
+                    <li>
+                        <a href="index.html">Home</a>
+                        <svg width="13" height="13" viewbox="0 0 13 13" xmlns="http://www.w3.org/2000/svg">
+                            <g>
+                                <path d="M11.0636 6.58864L8.00264 12.8892C7.96567 12.9557 7.89913 13 7.8178 13H2.11415C1.96628 13 1.87017 12.8449 1.92931 12.7119L4.90894 6.58864C4.93851 6.52955 4.93851 6.47046 4.90894 6.41136L1.9441 0.288068C1.87756 0.155114 1.97368 0 2.12894 0H7.83259C7.90652 0 7.98046 0.0443182 8.01743 0.110795L11.0784 6.41136C11.0932 6.47046 11.0932 6.52955 11.0636 6.58864Z"></path>
+                            </g>
+                        </svg>
+                    </li>
+                    <li>Get in Touch</li>
+                </ul>
+            </div>
+        </div>
+    </div> -->
+    <!-- Breadcrumb Section End -->
+
+    <!-- Contact Map Section Start -->
+   
+    <!-- Contact Map Section End -->
+
+    
+
+    <!-- Home2 Contact Section Start -->
+    <div class="home2-contact-section mb-120"  style="margin-top: 160px;">
+        <div class="container">
+            <div class="home2-contact-section-wrap">
+                <div class="row gy-5 justify-content-between">
+                   <div class="col-xl-5 col-lg-6 wow animate fadeInLeft" data-wow-delay="200ms">
+  <div class="contact-info-card">
+    <h2 class="mb-3">Get in Touch</h2>
+    <p class="subtitle">We’re here to help you 24/7</p>
+
+    <div class="info-item">
+      <i class="bi bi-geo-alt-fill"></i>
+      <div>
+        <h6>Head Office</h6>
+        <p>
+          509, Signature Business Park,<br>
+          Postal Colony, Chembur East,<br>
+          Mumbai – 400071
+        </p>
+      </div>
+    </div>
+
+    <div class="info-item">
+      <i class="bi bi-telephone-fill"></i>
+      <div>
+        <h6>Call Us</h6>
+        <a href="tel:+91 8850798311">+91 8850798311</a>
+      </div>
+    </div>
+
+    <div class="info-item">
+      <i class="bi bi-envelope-fill"></i>
+      <div>
+        <h6>Email</h6>
+        <a href="mailto:info@ewnsglobal.com">info@ewnsglobal.com</a>
+      </div>
+    </div>
+
+    <div class="support-box">
+      <h6>Instant Support</h6>
+      <span>Mon – Sat | 9:00 AM – 7:00 PM</span>
+    </div>
+  </div>
+</div>
+
+                    <div class="col-lg-6 wow animate fadeInRight" data-wow-delay="200ms" data-wow-duration="1500ms" style="margin-right: 20px;">
+                        <div class="contact-form-wrapper">
+                            <form method="post">
+                                <div class="row g-4">
+                                    <div class="col-md-12">
+                                        <div class="form-inner">
+                                            <label>Full Name</label>
+                                            <input type="text" name="firstname" id="firstname" placeholder="Enter Name"><span class="text-danger" id="firstname_err"> </span>
+                                        </div>
+                                    </div>
+                                   
+                                    <div class="col-md-6">
+                                        <div class="form-inner">
+                                            <label>Your Email *</label>
+                                            <input type="text" name="email" id="email" placeholder="Enter Email">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-inner">
+                                            <label>Phone Number</label>
+                                            <input type="text" name="contactnumber" id="contactnumber" placeholder="Enter Contact No">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="form-inner">
+                                            <label>Message</label>
+                                            <textarea name="message" id="message" placeholder="Write your message"></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <!-- <div class="form-inner2 two">
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" value="" id="contactCheck22">
+                                                <label class="form-check-label" for="contactCheck22">
+                                                    I consent to my data being processed according to the privacy policy
+                                                </label>
+                                            </div>
+                                        </div> -->
+                                    </div>
+                                </div>
+                            </form>
+                            <button type="button" id="submitbtn" name="submitbtn" class="primary-btn2 btn-hover" type="submit">Submit</button>
+                        </div>
+                    </div>
+                    <img src="assets/img/home2/home2-contact-bg.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+     <div class="contact-map-section mt-120 mb-120">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15084.323796876495!2d72.8771055871582!3d19.060178199999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c8a0fd34efd7%3A0xcb15bc1294f65074!2sSignature%20Business%20Park!5e0!3m2!1sen!2sin!4v1764842753793!5m2!1sen!2sin" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <!-- Home2 Contact Section End -->
+
+    <!-- Footer Section Start -->
+    <footer class="footer-section style-3">
+        <div class="container">
+            <div class="company-logo-and-contact-area">
+                <div class="row gy-5">
+                    <div class="col-lg-4">
+                        <div class="footer-logo-and-social">
+                            <div class="logo-area">
+                                <a href="index.html"><img src="assets/img/home1/white_1.png" style="width: 120px;" alt=""></a>
+                            </div>
+                            <p>509, Signature Business Park,<br>
+              Postal colony, Chembur East,<br>
+              Mumbai - 400071</p>
+                            <ul class="social-list">
+                                <li><a href="https://www.facebook.com/"><i class="bx bxl-facebook"></i></a></li>
+                                <li><a href="https://www.linkedin.com/"><i class="bx bxl-linkedin"></i></a></li>
+                                <li><a href="https://www.youtube.com/"><i class="bx bxl-youtube"></i></a></li>
+                                <li><a href="https://www.instagram.com/"><i class="bx bxl-instagram-alt"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-8">
+                        <div class="contact-area">
+                            <h2>We are Global Import / Export Service Agency.</h2>
+                            <ul class="mail-and-call">
+                                <li>
+                                    <div class="icon">
+                                        <img src="assets/img/home1/icon/footer-mail.svg" alt="">
+                                    </div>
+                                    <div class="content">
+                                        <p>Send Us Mail</p>
+                                        <a href="mailto:info@ewnsglobal.com">info@ewnsglobal.com</a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="icon">
+                                        <img src="assets/img/home1/icon/footer-call-icon.svg" alt="">
+                                    </div>
+                                    <div class="content">
+                                        <p>Collaborate!</p>
+                                        <a href="tel:+918850798311">(+91) 8850798311</a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <div class="container">
+                <p>Copyright 2025 <a href="https://www.ewnsglobal.com/" target="_blank">EWNS Global Logistics PVT.Ltd</a> | All Right Reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer Section End -->
+
+    <!--  Main jQuery  -->
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="assets/js/jquery-3.7.1.min.js"></script>
+    <script src="assets/js/jquery-ui.js"></script>
+    <script src="assets/js/moment.min.js"></script>
+    <script src="assets/js/daterangepicker.min.js"></script>
+
+    <!-- Popper and Bootstrap JS -->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <!-- Swiper slider JS -->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <script src="assets/js/slick.js"></script>
+    <!-- Waypoints JS -->
+    <script src="assets/js/waypoints.min.js"></script>
+    <!-- Counterup JS -->
+    <script src="assets/js/jquery.counterup.min.js"></script>
+    <!-- Wow JS -->
+    <script src="assets/js/wow.min.js"></script>
+    <!-- Gsap  JS -->
+    <script src="assets/js/gsap.min.js"></script>
+    <script src="assets/js/ScrollTrigger.min.js"></script>
+    <script src="assets/js/jquery.fancybox.min.js"></script>
+    <!-- Custom JS -->
+    <script src="assets/js/select-dropdown.js"></script>
+    <script src="assets/js/custom.js"></script>
+
+    <script src="assets/js/mail-script.js"></script>
+    <script src="assets/js/toastr.min.js"></script>
+    <script src="assets/js/submit.js"></script>
+<script defer="" src="../../../beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"version":"2024.11.0","token":"70834e4b23964a2eaf7cf4ec0e5e9a84","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
+</body>
+
+</html>

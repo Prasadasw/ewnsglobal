@@ -1,0 +1,1482 @@
+﻿<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/jquery-ui.css" rel="stylesheet">
+    <!-- Bootstrap Icon CSS -->
+    <link href="assets/css/bootstrap-icons.css" rel="stylesheet">
+    <!-- CSS -->
+    <link href="assets/css/animate.min.css" rel="stylesheet">
+    <!-- FancyBox CSS -->
+    <link href="assets/css/jquery.fancybox.min.css" rel="stylesheet">
+    <!-- Swiper slider CSS -->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    <!-- Slick slider CSS -->
+    <link rel="stylesheet" href="assets/css/slick.css">
+    <link rel="stylesheet" href="assets/css/slick-theme.css">
+    <link rel="stylesheet" href="assets/css/daterangepicker.css">
+    <!-- BoxIcon  CSS -->
+    <link href="assets/css/boxicons.min.css" rel="stylesheet">
+    <!--  Style CSS  -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Title -->
+    <title>OneTrack - Logistics & Transportation</title>
+    <link rel="icon" href="assets/fav-icon.svg" type="image/gif" sizes="20x20">
+</head>
+
+<body class="tt-magic-cursor">
+
+    <div id="magic-cursor">
+        <div id="ball"></div>
+    </div>
+
+    <!-- Back To Top -->
+    <div class="progress-wrap">
+        <svg class="progress-circle svg-content" width="100%" height="100%" viewbox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"></path>
+        </svg>
+        <svg class="arrow" width="22" height="25" viewbox="0 0 24 23" xmlns="http://www.w3.org/2000/svg">
+            <path d="M0.556131 11.4439L11.8139 0.186067L13.9214 2.29352L13.9422 20.6852L9.70638 20.7061L9.76793 8.22168L3.6064 14.4941L0.556131 11.4439Z"></path>
+            <path d="M23.1276 11.4999L16.0288 4.40105L15.9991 10.4203L20.1031 14.5243L23.1276 11.4999Z"></path>
+        </svg>
+    </div>
+
+    <!-- header Section Start-->
+    <header class="header-area style-1 two ">
+        <div class="container-fluid d-flex flex-nowrap align-items-center justify-content-between">
+            <div class="logo-and-menu-area">
+                <a href="index.html" class="header-logo">
+                    <img src="assets/img/home1/white_1.png" alt="">
+                </a>
+                <div class="main-menu">
+                    <div class="mobile-logo-area d-xl-none d-flex align-items-center justify-content-between">
+                        <a href="index.html" class="mobile-logo-wrap">
+                            <img src="assets/img/logo_sss.png" alt="">
+                        </a>
+                        <div class="menu-close-btn">
+                            <i class="bi bi-x"></i>
+                        </div>
+                    </div>
+                    <ul class="menu-list">
+                        <li class="menu-item-has-children">
+                            <a href="index.html" class="drop-down">
+                                Home
+                            </a>
+                        </li>
+                        <li class="menu-item-has-children">
+                            <a href="about.html" class="drop-down">
+                                About
+                            </a>
+                        </li>
+                        <li class="menu-item-has-children">
+                            <a href="#" class="drop-down">
+                                Services
+                                <i class="bi bi-caret-down-fill"></i>
+                            </a>
+                            <i class="bi bi-plus dropdown-icon"></i>
+                            <ul class="sub-menu">
+                                <li><a href="inland-service.html">Inland Services</a></li>
+                                <li><a href="ocean-freight.html">Ocean Freight</a></li>
+                                <li><a href="ocean-freight.html">Air Freight</a></li>
+                                <li><a href="custom-clearance.html">Custom Clearance</a></li>
+                                <li><a href="warehousing-transport-services.html">Warehousing</a></li>
+                                <li><a href="idc-cfs-service.html">IDC CFS Service</a></li>
+                                <li><a href="import-export-service.html">Import Export Service</a></li>
+                                <li><a href="contract-logistics.html">Contract Logistics</a></li>
+                                <li><a href="project-heavy-lift-logistics.html">Project Heavy Lift Logistics</a></li>
+                                <li><a href="cargo-insurance.html">Cargo Insurance</a></li>
+                                
+                               
+                            </ul>
+                        </li>
+
+                        <li class="menu-item-has-children">
+                            <a href="contact.html" class="drop-down">
+                                Contact
+                            </a>
+                        </li>
+                       
+                        
+                    </ul>
+                </div>
+            </div>
+            <div class="nav-right">
+                <div class="contact-area">
+                    
+                </div>
+                <div class="sidebar-button mobile-menu-btn">
+                    <svg width="20" height="18" viewbox="0 0 20 18" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1.29445 2.8421H10.5237C11.2389 2.8421 11.8182 2.2062 11.8182 1.42105C11.8182 0.635903 11.2389 0 10.5237 0H1.29445C0.579249 0 0 0.635903 0 1.42105C0 2.2062 0.579249 2.8421 1.29445 2.8421Z">
+                        </path>
+                        <path d="M1.23002 10.421H18.77C19.4496 10.421 20 9.78506 20 8.99991C20 8.21476 19.4496 7.57886 18.77 7.57886H1.23002C0.550421 7.57886 0 8.21476 0 8.99991C0 9.78506 0.550421 10.421 1.23002 10.421Z">
+                        </path>
+                        <path d="M18.8052 15.1579H10.2858C9.62563 15.1579 9.09094 15.7938 9.09094 16.5789C9.09094 17.3641 9.62563 18 10.2858 18H18.8052C19.4653 18 20 17.3641 20 16.5789C20 15.7938 19.4653 15.1579 18.8052 15.1579Z">
+                        </path>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- header Section End-->
+
+    <!-- home1 Banner Section Start-->
+    <div class="home5-banner-section">
+        <div class="swiper home5-banner-slider">
+            <div class="swiper-wrapper">
+                
+                <div class="swiper-slide">
+                    <div class="banner-wrapper">
+                        <div class="banner-img-area">
+                            <img src="assets/img/home5/home5-banner-img3.jpg" alt="">
+                        </div>
+                        <div class="banner-content-wrap">
+                            <div class="container">
+                                <div class="banner-content two">
+                                    <h1>EWNS Global Logistics Services</h1>
+                                    <p>We’re dynamic, customer-centric cargo shipping company dedicated to delivering
+                                        efficient, & timely shipping.</p>
+                                    <a class="primary-btn2 btn-hover" href="get-in-touch.html">
+                                        Request A Quote
+                                        <svg width="10" height="10" viewbox="0 0 10 10" xmlns="http://www.w3.org/2000/svg">
+                                            <g>
+                                                <path d="M5.83333 4.16667V0H4.16667V4.16667H0V5.83333H4.16667V10H5.83333V5.83333H10V4.16667H5.83333Z">
+                                                </path>
+                                            </g>
+                                        </svg>
+                                        <span></span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="banner-wrapper">
+                        <div class="banner-img-area">
+                            <img src="assets/img/home5/home5-banner-img1.jpg" alt="">
+                        </div>
+                        <div class="banner-content-wrap">
+                            <div class="container">
+                                <div class="banner-content two">
+                                    <h1>Flexible Air Freight Shipment.</h1>
+                                    <p>We’re dynamic, customer-centric cargo shipping company dedicated to delivering
+                                        efficient, & timely shipping.</p>
+                                    <a class="primary-btn2 btn-hover" href="get-in-touch.html">
+                                        Request A Quote
+                                        <svg width="10" height="10" viewbox="0 0 10 10" xmlns="http://www.w3.org/2000/svg">
+                                            <g>
+                                                <path d="M5.83333 4.16667V0H4.16667V4.16667H0V5.83333H4.16667V10H5.83333V5.83333H10V4.16667H5.83333Z">
+                                                </path>
+                                            </g>
+                                        </svg>
+                                        <span></span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="swiper-slide">
+                    <div class="banner-wrapper">
+                        <div class="banner-img-area">
+                            <img src="assets/img/home5/home5-banner-img2.jpg" alt="">
+                        </div>
+                        <div class="banner-content-wrap">
+                            <div class="container">
+                                <div class="banner-content two">
+                                    <h1>Global Air Freight Made Simple</h1>
+                                    <p>We’re dynamic, customer-centric cargo shipping company dedicated to delivering
+                                        efficient, & timely shipping.</p>
+                                    <a class="primary-btn2 btn-hover" href="get-in-touch.html">
+                                        Request A Quote
+                                        <svg width="10" height="10" viewbox="0 0 10 10" xmlns="http://www.w3.org/2000/svg">
+                                            <g>
+                                                <path d="M5.83333 4.16667V0H4.16667V4.16667H0V5.83333H4.16667V10H5.83333V5.83333H10V4.16667H5.83333Z">
+                                                </path>
+                                            </g>
+                                        </svg>
+                                        <span></span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+        <div class="slider-btn-grp">
+            <div class="slider-btn banner-slider-prev">
+                <svg width="16" height="16" viewbox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0_1151_22708)">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M8.68555 0L8.68555 16H7.31412L7.31412 0L8.68555 0Z"></path>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M7.31406 0.685714C7.31406 3.9104 10.1502 6.54629 13.1746 6.54629H13.8604V5.17486H13.1746C10.878 5.17486 8.68549 3.12412 8.68549 0.685714V0L7.31406 0V0.685714Z"></path>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M8.68555 0.685714C8.68555 3.9104 5.84943 6.54629 2.82497 6.54629H2.13926V5.17486H2.82497C5.12075 5.17486 7.31412 3.12412 7.31412 0.685714V0L8.68555 0V0.685714Z"></path>
+                    </g>
+                </svg>
+            </div>
+            <div class="franctional-pagi5"></div>
+            <div class="slider-btn banner-slider-next">
+                <svg width="16" height="16" viewbox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0_1151_22699)">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M8.68579 16L8.68579 -3.8147e-06H7.31436L7.31436 16H8.68579Z"></path>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M7.31431 15.3143C7.31431 12.0896 10.1504 9.45371 13.1749 9.45371H13.8606V10.8251H13.1749C10.8782 10.8251 8.68574 12.8759 8.68574 15.3143V16H7.31431V15.3143Z"></path>
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M8.68579 15.3143C8.68579 12.0896 5.84968 9.45371 2.82522 9.45371H2.1395V10.8251H2.82522C5.12099 10.8251 7.31436 12.8759 7.31436 15.3143V16H8.68579V15.3143Z"></path>
+                    </g>
+                </svg>
+            </div>
+        </div>
+        <ul class="social-list">
+            <li><a href="https://www.facebook.com/"><i class="bx bxl-facebook"></i></a></li>
+            <li><a href="https://www.linkedin.com/"><i class="bx bxl-linkedin"></i></a></li>
+            <li><a href="https://www.youtube.com/"><i class="bx bxl-youtube"></i></a></li>
+        </ul>
+    </div>
+    <!-- home1 Banner Section End-->
+
+    
+    <div class="home5-contact-info mb-120">
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-xl-5 col-lg-6 col-md-8">
+                    <div class="left-info">
+                        <img class="vector-1" src="assets/img/home5/vector/contact-info-vector.png" alt="">
+                        <span>Connecting the world one mile at a time.</span>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="contact-area">
+                        <div class="contact">
+                            <svg width="16" height="16" viewbox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                                <g>
+                                    <path d="M10.3674 8.28906L9.02736 9.63363C8.48395 10.1789 7.52783 10.1907 6.97267 9.63363L5.63258 8.28906L0.81958 13.1177C0.998736 13.2005 1.19627 13.25 1.40627 13.25H14.5938C14.8038 13.25 15.0012 13.2006 15.1803 13.1177L10.3674 8.28906Z"></path>
+                                    <path d="M14.5938 2H1.40625C1.19625 2 0.998719 2.04944 0.819625 2.13228L5.96266 7.29238C5.963 7.29272 5.96341 7.29278 5.96375 7.29313C5.96396 7.29335 5.9641 7.29363 5.96416 7.29394L7.63644 8.97175C7.81406 9.14938 8.186 9.14938 8.36362 8.97175L10.0356 7.29422C10.0356 7.29422 10.036 7.29347 10.0363 7.29313C10.0363 7.29313 10.0371 7.29272 10.0374 7.29238L15.1803 2.13225C15.0012 2.04938 14.8038 2 14.5938 2ZM0.149562 2.78787C0.056875 2.97531 0 3.18338 0 3.40625V11.8438C0 12.0666 0.0568125 12.2747 0.149531 12.4621L4.97087 7.62516L0.149562 2.78787ZM15.8504 2.78781L11.0292 7.62516L15.8504 12.4622C15.9431 12.2748 16 12.0667 16 11.8438V3.40625C16 3.18331 15.9431 2.97525 15.8504 2.78781Z"></path>
+                                </g>
+                            </svg>
+                            <h6>
+                                <a href="/cdn-cgi/l/email-protection#573e393138322f363a273b3217303a363e3b7934383a"><span class="__cf_email__" data-cfemail="026b6c646d677a636f726e6742656f636b6e2c616d6f">info@ewnsglobal.com</span></a>
+                            </h6>
+                        </div>
+                        <div class="contact d-lg-none">
+                            <svg width="16" height="16" viewbox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                                <g>
+                                    <path d="M14.7161 10.5021C13.7365 10.5021 12.7747 10.3489 11.8633 10.0477C11.4166 9.89539 10.8676 10.0351 10.595 10.3151L8.79598 11.6732C6.70961 10.5595 5.42444 9.27472 4.32595 7.20402L5.64407 5.45186C5.98653 5.10986 6.10936 4.61028 5.96219 4.14153C5.65969 3.22528 5.50603 2.26391 5.50603 1.28391C5.50607 0.575957 4.93011 0 4.2222 0H1.28387C0.575957 0 0 0.575957 0 1.28387C0 9.39843 6.60157 16 14.7161 16C15.424 16 16 15.424 16 14.7161V11.786C16 11.0781 15.424 10.5021 14.7161 10.5021Z"></path>
+                                </g>
+                            </svg>
+
+                            <h6>
+                                <a href="tel:8850798311">+91 8850798311</a>
+                            </h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="contact-two">
+            <svg width="16" height="16" viewbox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                <g>
+                    <path d="M14.7161 10.5021C13.7365 10.5021 12.7747 10.3489 11.8633 10.0477C11.4166 9.89539 10.8676 10.0351 10.595 10.3151L8.79598 11.6732C6.70961 10.5595 5.42444 9.27472 4.32595 7.20402L5.64407 5.45186C5.98653 5.10986 6.10936 4.61028 5.96219 4.14153C5.65969 3.22528 5.50603 2.26391 5.50603 1.28391C5.50607 0.575957 4.93011 0 4.2222 0H1.28387C0.575957 0 0 0.575957 0 1.28387C0 9.39843 6.60157 16 14.7161 16C15.424 16 16 15.424 16 14.7161V11.786C16 11.0781 15.424 10.5021 14.7161 10.5021Z"></path>
+                </g>
+            </svg>
+
+            <h6>
+                <a href="tel:8850798311">(+91) 8850798311</a>
+            </h6>
+        </div>
+    </div>
+   
+    <div class="home2-feature-section mb-120">
+        <div class="container">
+            <div class="row gy-4 align-items-center justify-content-between">
+    
+               
+                <div class="col-lg-6 wow animate fadeInLeft" data-wow-delay="200ms" data-wow-duration="2000ms">
+                    <div class="feature-img-wrapper">
+                        <div class="feature-img-area">
+                            <img class="feature-img1" src="assets/img/about_sec.jpg" alt="">
+                            <img class="feature-img2" src="assets/img/home2/home2-feature-img2.png" alt="">
+                        </div>
+    
+                        
+                    </div>
+                </div>
+    
+          
+                <div class="col-lg-6 wow animate fadeInRight" data-wow-delay="200ms" data-wow-duration="2000ms">
+    
+                    <div class="feature-content">
+    
+                        <div class="section-title mb-40 wow animate fadeInDown" data-wow-delay="400ms">
+                            <h2>Leaders in EWNS Logistics.</h2>
+                            <p>We are more than a logistics provider; we are your trusted partner in global maritime transport solutions.</p>
+                        </div>
+    
+                        <div class="feature-land-area">
+                            <h5>Delivering beyond boundaries</h5>
+    
+                            <ul class="feature-list">
+    
+                                <li>
+                                    <svg width="22" height="22" viewBox="0 0 22 22">
+                                        <circle cx="11" cy="11" r="11"></circle>
+                                        <path d="M15.27..."></path>
+                                    </svg>
+                                    Ocean Freight.
+                                </li>
+    
+                                <li>
+                                    <svg width="22" height="22" viewBox="0 0 22 22">
+                                        <circle cx="11" cy="11" r="11"></circle>
+                                        <path d="M15.27..."></path>
+                                    </svg>
+                                    Container Shipping.
+                                </li>
+    
+                                <li>
+                                    <svg width="22" height="22" viewBox="0 0 22 22">
+                                        <circle cx="11" cy="11" r="11"></circle>
+                                        <path d="M15.27..."></path>
+                                    </svg>
+                                    Door-to-Door Logistics.
+                                </li>
+    
+                                <li>
+                                    <svg width="22" height="22" viewBox="0 0 22 22">
+                                        <circle cx="11" cy="11" r="11"></circle>
+                                        <path d="M15.27..."></path>
+                                    </svg>
+                                    Customs Clearance Services.
+                                </li>
+    
+                                <li>
+                                    <svg width="22" height="22" viewBox="0 0 22 22">
+                                        <circle cx="11" cy="11" r="11"></circle>
+                                        <path d="M15.27..."></path>
+                                    </svg>
+                                    Port-to-Port Services.
+                                </li>
+    
+                                <li>
+                                    <svg width="22" height="22" viewBox="0 0 22 22">
+                                        <circle cx="11" cy="11" r="11"></circle>
+                                        <path d="M15.27..."></path>
+                                    </svg>
+                                    Breakbulk Shipping.
+                                </li>
+    
+                            </ul>
+                        </div>
+    
+                        <div class="btn-and-rating-area">
+                            <a class="btn-area" href="solution-01.html">
+                                <div class="icon">
+                                    <svg width="10" height="10" viewBox="0 0 10 10">
+                                        <path d="M5.83333 4.16667V0H4.16667V4.16667H0V5.83333H4.16667V10H5.83333V5.83333H10V4.16667H5.83333Z"></path>
+                                    </svg>
+                                </div>
+                                <div class="btn-content">
+                                    <span>View More</span>
+                                    <p>Delivering Excellence</p>
+                                </div>
+                            </a>
+    
+                            <a href="https://clutch.co/" class="rating-area">
+                                <div class="review">
+                                    <span>REVIEWED</span>
+                                    <svg width="74" height="21" viewBox="0 0 74 21">
+                                        <path d="M54.57..."></path>
+                                    </svg>
+                                </div>
+                            </a>
+    
+                        </div>
+    
+                    </div>
+                </div>
+    
+            </div>
+        </div>
+    </div>
+    
+
+    <div class="counter-section two wow animate fadeInDown" data-wow-delay="200ms" data-wow-duration="1500ms">
+        <div class="container">
+            <div class="counter-wrapper">
+                <div class="row gy-md-5 gy-4">
+                    <div class="col-lg-3 col-sm-6 divider">
+                        <!-- <div class="single-counter">
+                            <div class="icon">
+                                <svg width="50" height="50" viewbox="0 0 50 50" xmlns="http://www.w3.org/2000/svg">
+                                    <g>
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M45.7889 29.6886L17.8207 26.1539C17.7245 26.1418 17.6268 26.1503 17.534 26.1788C17.4413 26.2073 17.3558 26.2553 17.283 26.3194C17.2102 26.3836 17.152 26.4624 17.112 26.5508C17.0721 26.6392 17.0514 26.7351 17.0514 26.8321V45.3359C17.0514 45.4329 17.0721 45.5288 17.112 45.6172C17.152 45.7055 17.2102 45.7844 17.283 45.8486C17.3557 45.9127 17.4413 45.9606 17.534 45.9892C17.6267 46.0177 17.7244 46.0262 17.8206 46.0141L45.7888 42.4795C45.9539 42.4586 46.1058 42.3782 46.2159 42.2533C46.326 42.1285 46.3867 41.9677 46.3867 41.8013V30.3668C46.3867 30.2003 46.326 30.0396 46.2159 29.9147C46.1059 29.7899 45.954 29.7094 45.7889 29.6886ZM25.4511 28.4963L27.6629 28.7758V43.3921L25.4511 43.6716V28.4963ZM24.0839 43.8444L21.872 44.124V28.0439L24.0839 28.3235V43.8444ZM29.0302 28.9486L31.242 29.2281V42.9397L29.0302 43.2192V28.9486ZM32.6092 29.401L34.821 29.6805V42.4874L32.6092 42.7669V29.401ZM36.1882 29.8533L38.4 30.1328V42.0351L36.1882 42.3146V29.8533ZM39.7672 30.3056L41.9792 30.5852V41.5829L39.7672 41.8625V30.3056ZM18.4187 27.6075L20.5048 27.8712V44.2968L18.4187 44.5604V27.6075ZM45.0196 41.1985L43.3464 41.4099V30.758L45.0196 30.9694V41.1985ZM5.45557 32.2845V39.8836C5.45557 40.0649 5.38355 40.2388 5.25535 40.3669C5.12715 40.4951 4.95327 40.5672 4.77197 40.5672C4.59067 40.5672 4.4168 40.4951 4.2886 40.3669C4.1604 40.2388 4.08838 40.0649 4.08838 39.8836V32.2845C4.08838 32.1032 4.1604 31.9293 4.2886 31.8011C4.4168 31.6729 4.59067 31.6009 4.77197 31.6009C4.95327 31.6009 5.12715 31.6729 5.25535 31.8011C5.38355 31.9293 5.45557 32.1032 5.45557 32.2845ZM9.2667 40.4279V31.736C9.2667 31.5547 9.33872 31.3808 9.46692 31.2526C9.59512 31.1244 9.76899 31.0524 9.95029 31.0524C10.1316 31.0524 10.3055 31.1244 10.4337 31.2526C10.5619 31.3808 10.6339 31.5547 10.6339 31.736V40.4279C10.6339 40.6092 10.5619 40.7831 10.4337 40.9113C10.3055 41.0395 10.1316 41.1115 9.95029 41.1115C9.76899 41.1115 9.59512 41.0395 9.46692 40.9113C9.33872 40.7831 9.2667 40.6092 9.2667 40.4279ZM48.7635 27.3555L27.4447 15.7882C27.9463 15.2159 28.2513 14.4673 28.2513 13.6483C28.2513 13.467 28.1792 13.2932 28.0511 13.165C27.9229 13.0368 27.749 12.9647 27.5677 12.9647C27.3864 12.9647 27.2125 13.0368 27.0843 13.165C26.9561 13.2932 26.8841 13.467 26.8841 13.6483C26.8841 14.2361 26.6132 14.7616 26.19 15.1074L25.3261 14.6386C25.2308 14.5869 25.1247 14.5586 25.0163 14.556C24.908 14.5534 24.8006 14.5766 24.703 14.6237L23.7712 15.0733C23.3708 14.7275 23.116 14.2176 23.116 13.6483C23.116 12.6095 23.9611 11.7643 25 11.7643C25.1813 11.7643 25.3552 11.6923 25.4834 11.5641C25.6116 11.4359 25.6836 11.2621 25.6836 11.0808V8.52685C27.0805 8.21406 28.1277 6.96504 28.1277 5.47519C28.1277 3.98535 27.0804 2.73633 25.6836 2.42363V1.5625C25.6836 1.3812 25.6116 1.20732 25.4834 1.07913C25.3552 0.950928 25.1813 0.878906 25 0.878906C24.8187 0.878906 24.6448 0.950928 24.5166 1.07913C24.3884 1.20732 24.3164 1.3812 24.3164 1.5625V2.42373C22.9196 2.73652 21.8723 3.98555 21.8723 5.47529C21.8723 6.96513 22.9196 8.21406 24.3164 8.52685V10.4694C22.8508 10.7843 21.7488 12.09 21.7488 13.6483C21.7488 14.4245 22.0226 15.1377 22.478 15.6973L1.26543 25.932C1.14963 25.9879 1.05193 26.0753 0.983558 26.1842C0.915187 26.2931 0.878915 26.4191 0.878906 26.5476V45.6203C0.878909 45.7772 0.932917 45.9294 1.03186 46.0512C1.1308 46.1731 1.26866 46.2571 1.42227 46.2893L14.8605 49.1065C14.9347 49.122 15.0111 49.1251 15.0863 49.1156L48.5232 44.8898C48.6883 44.8689 48.8401 44.7885 48.9502 44.6637C49.0603 44.5388 49.121 44.3781 49.121 44.2116V27.9562C49.121 27.8332 49.0878 27.7124 49.0249 27.6067C48.962 27.5009 48.8717 27.4141 48.7635 27.3555ZM23.2395 5.47519C23.2395 4.50439 24.0292 3.71465 25 3.71465C25.9707 3.71465 26.7605 4.50439 26.7605 5.47519C26.7605 6.44599 25.9708 7.23584 25 7.23584C24.0293 7.23584 23.2395 6.44599 23.2395 5.47519ZM14.6906 23.0971L6.9042 24.7294L20.4845 18.1771L14.6906 23.0971ZM14.3171 24.5723V47.5957L7.98857 46.2689V25.8988L14.3171 24.5723ZM24.2146 16.8031C24.4663 16.8658 24.7293 16.8996 25 16.8996C25.2529 16.8996 25.4987 16.8696 25.7352 16.8147L35.6019 25.6451L16.6263 23.247L24.2146 16.8031ZM37.989 25.9468L29.8104 18.6272L44.9134 26.822L37.989 25.9468ZM2.24609 27.1028L6.62139 26.1855V45.9824L2.24609 45.0651V27.1028ZM15.6843 47.6621V24.5058L47.7539 28.559V43.6091L15.6843 47.6621ZM25 6.15879C24.6234 6.15879 24.3164 5.85176 24.3164 5.47519C24.3164 5.09863 24.6234 4.7916 25 4.7916C25.3766 4.7916 25.6836 5.09863 25.6836 5.47519C25.6837 5.85176 25.3766 6.15879 25 6.15879Z"></path>
+                                    </g>
+                                </svg>
+
+                            </div>
+                            <div class="content">
+                                <div class="number">
+                                    <h2 class="counter">500</h2>
+                                    <span>+</span>
+                                </div>
+                                <h6>All Over World Expertise</h6>
+                            </div>
+                        </div> -->
+                    </div>
+                    <div class="col-lg-3 col-sm-6 divider d-flex justify-content-lg-center">
+                        <div class="single-counter">
+                            <div class="icon">
+                                <svg width="50" height="50" viewbox="0 0 50 50" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M32.2827 25.0001L23.0855 3.21735C23.0418 3.11384 23.0351 2.99842 23.0666 2.89056C23.098 2.7827 23.1658 2.68899 23.2583 2.62524C23.3508 2.5615 23.4625 2.53162 23.5745 2.54064C23.6865 2.54966 23.792 2.59703 23.8731 2.67477L46.8223 24.6474C46.8699 24.693 46.9077 24.7478 46.9336 24.8084C46.9595 24.869 46.9728 24.9342 46.9728 25.0001C46.9728 25.066 46.9594 25.1312 46.9336 25.1918C46.9077 25.2524 46.8698 25.3071 46.8222 25.3527L23.873 47.3254C23.7821 47.4125 23.6611 47.4611 23.5352 47.461H23.5326C23.4032 47.4608 23.2792 47.4093 23.1878 47.3177C23.0965 47.2262 23.0451 47.1021 23.0452 46.9727C23.0452 46.89 23.0657 46.8121 23.1019 46.7439L32.2827 25.0001ZM45.7785 25.0001L24.904 5.01393L33.2625 24.8101C33.2878 24.8702 33.3009 24.9348 33.3009 25.0001C33.3009 25.0653 33.2878 25.1299 33.2625 25.19L24.904 44.9862L45.7785 25.0001ZM12.263 25.0001L3.06585 3.21735C3.02213 3.11384 3.01545 2.99842 3.04692 2.89056C3.0784 2.7827 3.14611 2.68899 3.23864 2.62524C3.33117 2.5615 3.44286 2.53162 3.55486 2.54064C3.66685 2.54966 3.77232 2.59703 3.85345 2.67477L26.8027 24.6474C26.8503 24.693 26.8882 24.7477 26.9141 24.8083C26.94 24.8689 26.9533 24.9342 26.9533 25.0001C26.9533 25.066 26.94 25.1312 26.9141 25.1918C26.8882 25.2524 26.8503 25.3071 26.8027 25.3527L3.85345 47.3254C3.7626 47.4125 3.64155 47.4611 3.51566 47.461C3.43509 47.461 3.35579 47.441 3.28482 47.4028C3.21386 47.3647 3.15342 47.3096 3.10889 47.2425C3.06437 47.1753 3.03714 47.0982 3.02963 47.018C3.02212 46.9378 3.03456 46.8569 3.06585 46.7827L12.263 25.0001ZM25.7589 25.0001L4.88451 5.01393L13.2429 24.8101C13.2682 24.8703 13.2813 24.9348 13.2813 25.0001C13.2813 25.0653 13.2682 25.1299 13.2429 25.19L4.88451 44.9862L25.7589 25.0001Z">
+                                    </path>
+                                </svg>
+
+                            </div>
+                            <div class="content">
+                                <div class="number">
+                                    <h2 class="counter">20</h2>
+                                    <span>+</span>
+                                </div>
+                                <h6>Years of Experienece</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 divider d-flex justify-content-lg-center">
+                        <div class="single-counter">
+                            <div class="icon">
+                                <svg width="50" height="50" viewbox="0 0 50 50" xmlns="http://www.w3.org/2000/svg">
+                                    <g>
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M45.7889 29.6886L17.8207 26.1539C17.7245 26.1418 17.6268 26.1503 17.534 26.1788C17.4413 26.2073 17.3558 26.2553 17.283 26.3194C17.2102 26.3836 17.152 26.4624 17.112 26.5508C17.0721 26.6392 17.0514 26.7351 17.0514 26.8321V45.3359C17.0514 45.4329 17.0721 45.5288 17.112 45.6172C17.152 45.7055 17.2102 45.7844 17.283 45.8486C17.3557 45.9127 17.4413 45.9606 17.534 45.9892C17.6267 46.0177 17.7244 46.0262 17.8206 46.0141L45.7888 42.4795C45.9539 42.4586 46.1058 42.3782 46.2159 42.2533C46.326 42.1285 46.3867 41.9677 46.3867 41.8013V30.3668C46.3867 30.2003 46.326 30.0396 46.2159 29.9147C46.1059 29.7899 45.954 29.7094 45.7889 29.6886ZM25.4511 28.4963L27.6629 28.7758V43.3921L25.4511 43.6716V28.4963ZM24.0839 43.8444L21.872 44.124V28.0439L24.0839 28.3235V43.8444ZM29.0302 28.9486L31.242 29.2281V42.9397L29.0302 43.2192V28.9486ZM32.6092 29.401L34.821 29.6805V42.4874L32.6092 42.7669V29.401ZM36.1882 29.8533L38.4 30.1328V42.0351L36.1882 42.3146V29.8533ZM39.7672 30.3056L41.9792 30.5852V41.5829L39.7672 41.8625V30.3056ZM18.4187 27.6075L20.5048 27.8712V44.2968L18.4187 44.5604V27.6075ZM45.0196 41.1985L43.3464 41.4099V30.758L45.0196 30.9694V41.1985ZM5.45557 32.2845V39.8836C5.45557 40.0649 5.38355 40.2388 5.25535 40.3669C5.12715 40.4951 4.95327 40.5672 4.77197 40.5672C4.59067 40.5672 4.4168 40.4951 4.2886 40.3669C4.1604 40.2388 4.08838 40.0649 4.08838 39.8836V32.2845C4.08838 32.1032 4.1604 31.9293 4.2886 31.8011C4.4168 31.6729 4.59067 31.6009 4.77197 31.6009C4.95327 31.6009 5.12715 31.6729 5.25535 31.8011C5.38355 31.9293 5.45557 32.1032 5.45557 32.2845ZM9.2667 40.4279V31.736C9.2667 31.5547 9.33872 31.3808 9.46692 31.2526C9.59512 31.1244 9.76899 31.0524 9.95029 31.0524C10.1316 31.0524 10.3055 31.1244 10.4337 31.2526C10.5619 31.3808 10.6339 31.5547 10.6339 31.736V40.4279C10.6339 40.6092 10.5619 40.7831 10.4337 40.9113C10.3055 41.0395 10.1316 41.1115 9.95029 41.1115C9.76899 41.1115 9.59512 41.0395 9.46692 40.9113C9.33872 40.7831 9.2667 40.6092 9.2667 40.4279ZM48.7635 27.3555L27.4447 15.7882C27.9463 15.2159 28.2513 14.4673 28.2513 13.6483C28.2513 13.467 28.1792 13.2932 28.0511 13.165C27.9229 13.0368 27.749 12.9647 27.5677 12.9647C27.3864 12.9647 27.2125 13.0368 27.0843 13.165C26.9561 13.2932 26.8841 13.467 26.8841 13.6483C26.8841 14.2361 26.6132 14.7616 26.19 15.1074L25.3261 14.6386C25.2308 14.5869 25.1247 14.5586 25.0163 14.556C24.908 14.5534 24.8006 14.5766 24.703 14.6237L23.7712 15.0733C23.3708 14.7275 23.116 14.2176 23.116 13.6483C23.116 12.6095 23.9611 11.7643 25 11.7643C25.1813 11.7643 25.3552 11.6923 25.4834 11.5641C25.6116 11.4359 25.6836 11.2621 25.6836 11.0808V8.52685C27.0805 8.21406 28.1277 6.96504 28.1277 5.47519C28.1277 3.98535 27.0804 2.73633 25.6836 2.42363V1.5625C25.6836 1.3812 25.6116 1.20732 25.4834 1.07913C25.3552 0.950928 25.1813 0.878906 25 0.878906C24.8187 0.878906 24.6448 0.950928 24.5166 1.07913C24.3884 1.20732 24.3164 1.3812 24.3164 1.5625V2.42373C22.9196 2.73652 21.8723 3.98555 21.8723 5.47529C21.8723 6.96513 22.9196 8.21406 24.3164 8.52685V10.4694C22.8508 10.7843 21.7488 12.09 21.7488 13.6483C21.7488 14.4245 22.0226 15.1377 22.478 15.6973L1.26543 25.932C1.14963 25.9879 1.05193 26.0753 0.983558 26.1842C0.915187 26.2931 0.878915 26.4191 0.878906 26.5476V45.6203C0.878909 45.7772 0.932917 45.9294 1.03186 46.0512C1.1308 46.1731 1.26866 46.2571 1.42227 46.2893L14.8605 49.1065C14.9347 49.122 15.0111 49.1251 15.0863 49.1156L48.5232 44.8898C48.6883 44.8689 48.8401 44.7885 48.9502 44.6637C49.0603 44.5388 49.121 44.3781 49.121 44.2116V27.9562C49.121 27.8332 49.0878 27.7124 49.0249 27.6067C48.962 27.5009 48.8717 27.4141 48.7635 27.3555ZM23.2395 5.47519C23.2395 4.50439 24.0292 3.71465 25 3.71465C25.9707 3.71465 26.7605 4.50439 26.7605 5.47519C26.7605 6.44599 25.9708 7.23584 25 7.23584C24.0293 7.23584 23.2395 6.44599 23.2395 5.47519ZM14.6906 23.0971L6.9042 24.7294L20.4845 18.1771L14.6906 23.0971ZM14.3171 24.5723V47.5957L7.98857 46.2689V25.8988L14.3171 24.5723ZM24.2146 16.8031C24.4663 16.8658 24.7293 16.8996 25 16.8996C25.2529 16.8996 25.4987 16.8696 25.7352 16.8147L35.6019 25.6451L16.6263 23.247L24.2146 16.8031ZM37.989 25.9468L29.8104 18.6272L44.9134 26.822L37.989 25.9468ZM2.24609 27.1028L6.62139 26.1855V45.9824L2.24609 45.0651V27.1028ZM15.6843 47.6621V24.5058L47.7539 28.559V43.6091L15.6843 47.6621ZM25 6.15879C24.6234 6.15879 24.3164 5.85176 24.3164 5.47519C24.3164 5.09863 24.6234 4.7916 25 4.7916C25.3766 4.7916 25.6836 5.09863 25.6836 5.47519C25.6837 5.85176 25.3766 6.15879 25 6.15879Z"></path>
+                                    </g>
+                                </svg>
+
+                            </div>
+                            <div class="content">
+                                <div class="number">
+                                    <h2 class="counter">500</h2>
+                                    <span>+</span>
+                                </div>
+                                <h6>All Over World Expertise</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 d-flex justify-content-lg-end">
+                        <!-- <div class="single-counter">
+                            <div class="icon">
+                                <svg width="50" height="50" viewbox="0 0 50 50" xmlns="http://www.w3.org/2000/svg">
+                                    <g>
+                                        <path d="M25 50C17.25 50 10.9375 38.7812 10.9375 25H12.5C12.5 37.9219 18.1094 48.4375 25 48.4375C31.8906 48.4375 37.5 37.9219 37.5 25H39.0625C39.0625 38.7812 32.75 50 25 50Z">
+                                        </path>
+                                        <path d="M25 50C11.2188 50 0 38.7812 0 25C0 24.5703 0.351562 24.2188 0.78125 24.2188H49.2188C49.6484 24.2188 50 24.5703 50 25C50 38.7812 38.7812 50 25 50ZM1.57812 25.7812C1.99219 38.3438 12.3437 48.4375 25 48.4375C37.6562 48.4375 48.0156 38.3438 48.4219 25.7812H1.57812Z">
+                                        </path>
+                                        <path d="M44.1953 39.7344C39.0312 37.2891 32.2109 35.9375 25 35.9375C17.7891 35.9375 10.9687 37.2813 5.80469 39.7344L5.13281 38.3203C10.5078 35.7734 17.5625 34.375 25 34.375C32.4375 34.375 39.4922 35.7734 44.8672 38.3203L44.1953 39.7344Z">
+                                        </path>
+                                        <path d="M24.2188 25H25.7812V49.2188H24.2188V25ZM13.2812 25.7812H7.03125C6.60156 25.7812 6.25 25.4297 6.25 25V18.75C6.25 18.3203 6.60156 17.9688 7.03125 17.9688H13.2812C13.7109 17.9688 14.0625 18.3203 14.0625 18.75V25C14.0625 25.4297 13.7109 25.7812 13.2812 25.7812ZM7.8125 24.2188H12.5V19.5312H7.8125V24.2188ZM22.6562 25.7812H16.4062C15.9766 25.7812 15.625 25.4297 15.625 25V10.1562C15.625 9.72656 15.9766 9.375 16.4062 9.375H22.6562C23.0859 9.375 23.4375 9.72656 23.4375 10.1562V25C23.4375 25.4297 23.0859 25.7812 22.6562 25.7812ZM17.1875 24.2188H21.875V10.9375H17.1875V24.2188Z">
+                                        </path>
+                                        <path d="M32.0312 25.7813H25.7812C25.3515 25.7813 25 25.4297 25 25V14.0625C25 13.6328 25.3515 13.2813 25.7812 13.2813H32.0312C32.4609 13.2813 32.8125 13.6328 32.8125 14.0625V25C32.8125 25.4297 32.4609 25.7813 32.0312 25.7813ZM26.5625 24.2188H31.25V14.8438H26.5625V24.2188ZM41.4062 25.7813H35.1562C34.7265 25.7813 34.375 25.4297 34.375 25V8.59379C34.375 8.1641 34.7265 7.81254 35.1562 7.81254H41.4062C41.8359 7.81254 42.1875 8.1641 42.1875 8.59379V25C42.1875 25.4297 41.8359 25.7813 41.4062 25.7813ZM35.9375 24.2188H40.625V9.37504H35.9375V24.2188ZM7.03123 12.5C6.78123 12.5 6.53905 12.3828 6.3828 12.1641C6.32453 12.0796 6.28356 11.9843 6.26223 11.8839C6.2409 11.7835 6.23964 11.6798 6.25852 11.5789C6.2774 11.478 6.31604 11.3818 6.37223 11.2958C6.42842 11.2099 6.50104 11.1359 6.58592 11.0782L19.0859 2.48441C19.3515 2.30472 19.6953 2.29691 19.9609 2.48441L28.8828 8.42972L40.164 0.148475C40.5156 -0.109338 41 -0.0312126 41.2578 0.312537C41.5156 0.6641 41.4375 1.14847 41.0937 1.40629L29.375 10C29.1094 10.1953 28.75 10.2032 28.4765 10.0235L19.539 4.07035L7.47654 12.3672C7.34373 12.461 7.18748 12.5078 7.03123 12.5078V12.5Z">
+                                        </path>
+                                        <path d="M40.625 1.5625H36.7188C36.2891 1.5625 35.9375 1.21094 35.9375 0.78125C35.9375 0.351562 36.2891 0 36.7188 0H40.625C41.0547 0 41.4062 0.351562 41.4062 0.78125C41.4062 1.21094 41.0547 1.5625 40.625 1.5625Z">
+                                        </path>
+                                        <path d="M39.8438 5.46868C39.7891 5.46868 39.7422 5.46868 39.6875 5.45305C39.5868 5.43284 39.4911 5.39291 39.4059 5.33556C39.3207 5.27821 39.2477 5.20457 39.191 5.11889C39.1344 5.03321 39.0952 4.93717 39.0759 4.83631C39.0565 4.73545 39.0573 4.63174 39.0781 4.53118L39.8594 0.624928C39.8789 0.523882 39.9184 0.42775 39.9756 0.342165C40.0327 0.25658 40.1064 0.183264 40.1923 0.126512C40.2781 0.06976 40.3744 0.0307136 40.4756 0.0116605C40.5767 -0.0073925 40.6806 -0.00606894 40.7813 0.0155537C41.2031 0.101491 41.4766 0.507741 41.3906 0.937428L40.6094 4.84368C40.5391 5.21868 40.2109 5.46868 39.8438 5.46868Z">
+                                        </path>
+                                    </g>
+                                </svg>
+
+                            </div>
+                            <div class="content">
+                                <div class="number">
+                                    <h2 class="counter">23</h2>
+                                    <span>+</span>
+                                </div>
+                                <h6>Supported Country</h6>
+                            </div>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+   
+    <div class="home2-video-area">
+        <video autoplay="" loop="" muted="" playsinline="" src="assets/video/home2-video-area.mp4"></video>
+    </div>
+
+
+
+     <div class="home2-service-section mb-120">
+        <div class="container">
+            <div class="row gy-5 justify-content-between">
+                <div class="col-lg-6">
+                    <div class="service-content-wrapper">
+                        <div class="section-title mb-60 wow animate fadeInDown" data-wow-delay="200ms" data-wow-duration="1500ms">
+                            <h2>Solutions at a Glance.</h2>
+                        </div>
+                        <div class="swiper home2-service-slider">
+                            <div class="swiper-wrapper">
+                                <!-- <div class="swiper-slide">
+                                    <div class="single-service active">
+                                        <div class="arrow">
+                                            <svg width="12" height="12" viewbox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M1 11L11 1M11 1C8.77778 1.41667 3.91667 2.25 1 1M11 1C10.5833 3.08333 9.75 7.66667 11 11" stroke-width="1.5" stroke-linecap="round"></path>
+                                            </svg>
+                                        </div>
+                                        <svg class="icon2" width="35" height="35" viewbox="0 0 35 35" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M7.30522 30.1843C8.90647 31.1967 10.9915 31.7104 13.5023 31.7104H14.2455C14.3479 31.7104 14.4461 31.6697 14.5185 31.5973C14.5909 31.5249 14.6315 31.4267 14.6315 31.3243C14.6315 31.222 14.5909 31.1238 14.5185 31.0514C14.4461 30.979 14.3479 30.9383 14.2455 30.9383H13.5018C11.1398 30.9383 9.19368 30.4648 7.7175 29.5316C7.67473 29.5044 7.627 29.4859 7.57705 29.4772C7.5271 29.4684 7.47591 29.4697 7.42645 29.4808C7.37698 29.492 7.33021 29.5128 7.28882 29.5421C7.24743 29.5714 7.21225 29.6086 7.1853 29.6515C7.15811 29.6944 7.13965 29.7422 7.13097 29.7921C7.12228 29.8421 7.12355 29.8933 7.13469 29.9428C7.14583 29.9923 7.16663 30.0391 7.19589 30.0805C7.22516 30.122 7.26231 30.1572 7.30522 30.1843ZM15.7454 31.7109H15.9168C16.0191 31.7109 16.1173 31.6702 16.1897 31.5978C16.2621 31.5254 16.3028 31.4272 16.3028 31.3249C16.3028 31.2225 16.2621 31.1243 16.1897 31.0519C16.1173 30.9795 16.0191 30.9388 15.9168 30.9388H15.7454C15.643 30.9388 15.5448 30.9795 15.4724 31.0519C15.4 31.1243 15.3593 31.2225 15.3593 31.3249C15.3593 31.4272 15.4 31.5254 15.4724 31.5978C15.5448 31.6702 15.643 31.7109 15.7454 31.7109Z"></path>
+                                            <path d="M33.5197 24.3295C33.599 23.5482 32.9772 22.8667 32.1933 22.8667H19.6602V19.7538C22.7469 18.2014 26.0282 18.6842 29.6846 21.2336C29.9451 21.4163 30.3126 21.2176 30.2904 20.8913C29.3598 6.95459 21.3412 3.84371 19.6607 3.34341V2.77981C19.6599 2.31562 19.4751 1.87069 19.1467 1.54255C18.8184 1.21441 18.3734 1.02984 17.9092 1.0293C17.4446 1.02943 16.999 1.21388 16.6703 1.54216C16.3415 1.87043 16.1564 2.31573 16.1556 2.78033V4.09437C14.4617 4.63121 5.96338 7.86202 5.01117 18.8309C5.00525 18.8976 5.01685 18.9648 5.04481 19.0256C5.07277 19.0865 5.11613 19.139 5.17061 19.178C5.22508 19.217 5.28879 19.2411 5.35543 19.2479C5.42207 19.2548 5.48933 19.2441 5.55058 19.2169C9.41757 17.5215 12.6947 18.3872 16.1556 22.0149V22.8672H2.80926C2.6205 22.8675 2.43394 22.9077 2.26186 22.9853C2.08977 23.0629 1.93607 23.176 1.81086 23.3173C1.68565 23.4585 1.59178 23.6247 1.53542 23.8048C1.47907 23.985 1.4615 24.175 1.48389 24.3625C1.56399 24.9864 1.68765 25.6041 1.85396 26.2108V26.218C3.21227 31.2168 7.34999 33.9705 13.5038 33.9705H21.4818C25.1598 33.9705 27.9218 32.6302 30.5174 30.2394C31.7311 29.1245 32.6951 28.2387 33.2006 26.2283V26.2252L33.2032 26.2164C33.2032 26.2139 33.2052 26.2118 33.2057 26.2097C33.3514 25.6451 33.4538 25.0305 33.5197 24.3295ZM19.6607 18.4058V4.97812C22.6172 9.97437 22.6182 14.3869 19.6607 18.4068V18.4058ZM16.1556 19.9839C14.3973 15.4292 14.3973 10.8272 16.1556 6.26025V19.9839ZM16.9276 2.7793C16.9276 2.51925 17.0309 2.26985 17.2148 2.08597C17.3987 1.90209 17.6481 1.79878 17.9082 1.79878C18.1682 1.79878 18.4176 1.90209 18.6015 2.08597C18.7854 2.26985 18.8887 2.51925 18.8887 2.7793V22.8662H16.9276V2.7793ZM29.995 29.6706C27.5779 31.8993 25.0065 33.1984 21.4818 33.1984H13.5038C10.2488 33.1984 4.60713 32.3147 2.74338 26.5021H32.3199C31.8464 27.97 31.0512 28.7009 29.995 29.6706Z"></path>
+                                        </svg>
+                                        <h5>Ocean Freight.</h5>
+                                    </div>
+                                </div> -->
+                                <div class="swiper-slide">
+                                    <div class="single-service">
+                                        <div class="arrow">
+                                            <svg width="12" height="12" viewbox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M1 11L11 1M11 1C8.77778 1.41667 3.91667 2.25 1 1M11 1C10.5833 3.08333 9.75 7.66667 11 11" stroke-width="1.5" stroke-linecap="round"></path>
+                                            </svg>
+                                        </div>
+                                        <svg class="icon2" width="35" height="35" viewbox="0 0 35 35" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M33.4802 17.7135C32.9537 17.2445 32.2262 17.1584 31.6296 17.4391V5.18721C31.6296 3.98757 30.6533 3.0144 29.4536 3.0144H10.8971C9.69745 3.0144 8.72107 3.9875 8.72107 5.18721V18.6197C7.9681 19.1047 7.73198 19.4524 6.43979 20.6521V18.6771C6.43979 17.972 5.86543 17.3977 5.15716 17.3977H2.6239C1.91877 17.3977 1.34448 17.972 1.34448 18.6771V30.6227C1.34448 31.331 1.91877 31.9053 2.6239 31.9053H5.15723C5.8655 31.9053 6.43985 31.331 6.43985 30.6227V30.0101L9.56347 27.6969C10.1218 27.2853 10.8142 27.0556 11.5097 27.0556H22.412C24.1541 27.0556 25.3761 26.7205 25.6186 26.6823C27.5585 26.2739 29.2718 25.2975 30.5767 23.8586C31.6105 22.7164 32.6347 21.4561 33.7067 20.0107C34.2396 19.2929 34.1406 18.307 33.4802 17.7135ZM9.51876 5.18721C9.51876 4.42787 10.1378 3.81209 10.8971 3.81209H16.8731V8.66499C16.873 8.85381 16.9247 9.03904 17.0225 9.20051C17.1204 9.36198 17.2608 9.4935 17.4282 9.58073C17.7696 9.75621 18.178 9.73071 18.4939 9.51053L20.1753 8.3396L21.8567 9.51053C22.1662 9.7275 22.5746 9.76257 22.9224 9.58073C23.0899 9.4935 23.2302 9.36198 23.3281 9.20051C23.4259 9.03904 23.4776 8.85381 23.4775 8.66499V3.81209H29.4535C30.2129 3.81209 30.8318 4.42787 30.8318 5.18721V18.0995C29.4694 19.497 28.0975 20.6871 26.7479 21.638C25.7077 22.3718 24.4729 22.7579 23.1744 22.7579H16.8601C16.6942 22.7579 16.5315 22.6877 16.4198 22.5633C16.1295 22.241 16.2731 21.7242 16.691 21.5997L24.7824 19.1972C25.1879 19.0775 25.5378 18.8178 25.7698 18.4643C26.0017 18.1108 26.1007 17.6865 26.049 17.2669C25.9246 16.2554 24.9897 15.5599 23.9943 15.7163L10.9128 17.7806C10.4279 17.8571 9.962 17.9975 9.51855 18.1922V5.18721H9.51876ZM33.0654 19.5354C32.0093 20.9615 31.0011 22.1995 29.9833 23.3226C28.7932 24.6372 27.2266 25.5305 25.4559 25.9006C25.2038 25.9421 24.0552 26.258 22.412 26.258H11.5097C10.6451 26.258 9.7868 26.5419 9.0881 27.0556L6.43985 29.0178V21.7528L8.42439 19.8608C9.14866 19.1716 10.0516 18.7249 11.0375 18.5686L24.119 16.5042C24.2504 16.4835 24.3847 16.4894 24.5138 16.5216C24.6429 16.5539 24.7642 16.6117 24.8705 16.6918C24.9768 16.7719 25.0659 16.8725 25.1324 16.9878C25.199 17.103 25.2417 17.2304 25.258 17.3625C25.2864 17.5953 25.2315 17.8306 25.1031 18.0269C24.9746 18.2231 24.7809 18.3675 24.5561 18.4346L16.4648 20.8339C15.4852 21.1242 15.1438 22.3367 15.8298 23.0961C16.0914 23.3896 16.468 23.5555 16.8604 23.5555H23.1746C24.6391 23.5555 26.0334 23.1184 27.2076 22.2888C28.6944 21.2423 30.2036 19.9182 31.6936 18.3548C32.0318 18.0038 32.5838 17.9847 32.9475 18.3101C33.3015 18.6228 33.3525 19.1525 33.0654 19.5354Z"></path>
+                                        </svg>
+
+                                        <h5>Door-to-Door Logistics.</h5>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="single-service">
+                                        <div class="arrow">
+                                            <svg width="12" height="12" viewbox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M1 11L11 1M11 1C8.77778 1.41667 3.91667 2.25 1 1M11 1C10.5833 3.08333 9.75 7.66667 11 11" stroke-width="1.5" stroke-linecap="round"></path>
+                                            </svg>
+                                        </div>
+                                        <svg class="icon2" width="35" height="35" viewbox="0 0 35 35" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M21.875 1.64063H13.125C12.6897 1.64063 12.2724 1.81344 11.9651 2.12133C11.8126 2.27357 11.6917 2.45438 11.6092 2.65341C11.5267 2.85245 11.4843 3.0658 11.4844 3.28125V7.10938H7.65623C7.22111 7.10938 6.80381 7.28223 6.49613 7.5899C6.18846 7.89758 6.01561 8.31488 6.01561 8.75V19.4846L5.07826 19.8734C4.68698 20.0358 4.37368 20.3433 4.20396 20.7315C4.03424 21.1196 4.02125 21.5584 4.16772 21.9559L7.46537 30.9077C7.03975 30.6193 6.54142 30.4567 6.02759 30.4386C5.51375 30.4205 5.00523 30.5477 4.56037 30.8055L1.9135 32.3395C1.84925 32.3743 1.79264 32.4217 1.74702 32.4788C1.7014 32.5359 1.66769 32.6016 1.64789 32.672C1.62809 32.7423 1.62259 32.816 1.63173 32.8885C1.64087 32.961 1.66445 33.031 1.70109 33.0942C1.73772 33.1575 1.78667 33.2127 1.84503 33.2568C1.90339 33.3008 1.96998 33.3326 2.04087 33.3505C2.11176 33.3683 2.1855 33.3717 2.25774 33.3606C2.32998 33.3494 2.39926 33.3239 2.46147 33.2855L5.10889 31.7516C5.38208 31.5933 5.69513 31.5172 6.01049 31.5324C6.32585 31.5477 6.63011 31.6536 6.88678 31.8374L8.47272 32.9733C8.93703 33.3058 9.49382 33.4847 10.0649 33.4847C10.6361 33.4847 11.1929 33.3058 11.6572 32.9733L12.8844 32.0945C13.1629 31.895 13.4969 31.7878 13.8395 31.7878C14.1821 31.7878 14.516 31.895 14.7946 32.0945L15.9037 32.8891C16.3692 33.2222 16.9275 33.401 17.5 33.4001C18.0724 33.3992 18.6302 33.2188 19.0947 32.8841L20.4143 31.9331C20.6929 31.7322 21.0276 31.6238 21.3711 31.6232C21.7146 31.6226 22.0496 31.7299 22.3289 31.9298L23.7852 32.9733C24.2495 33.3058 24.8063 33.4847 25.3774 33.4847C25.9486 33.4847 26.5054 33.3058 26.9697 32.9733L28.3341 31.996C28.5887 31.8139 28.89 31.7083 29.2026 31.6917C29.5152 31.6751 29.826 31.7483 30.0983 31.9025L32.5429 33.2883C32.669 33.3586 32.8178 33.3761 32.9568 33.3371C33.0958 33.2982 33.2137 33.2058 33.2849 33.0802C33.3561 32.9546 33.3747 32.8059 33.3367 32.6667C33.2987 32.5274 33.2072 32.4088 33.0821 32.3367L30.6376 30.9509C30.1836 30.6938 29.6655 30.5718 29.1445 30.5994C28.6235 30.627 28.1213 30.8031 27.697 31.1068L27.3765 31.3365L30.8322 21.9559C30.9787 21.5584 30.9657 21.1196 30.796 20.7315C30.6263 20.3433 30.313 20.0358 29.9217 19.8734L28.9844 19.4846V8.75C28.9844 8.31488 28.8115 7.89758 28.5038 7.5899C28.1962 7.28223 27.7789 7.10938 27.3437 7.10938H23.5156V3.28125C23.5156 2.84594 23.3428 2.42867 23.0349 2.12133C22.8827 1.96887 22.7019 1.84794 22.5028 1.76546C22.3038 1.68297 22.0904 1.64055 21.875 1.64063ZM16.9531 20.2169C14.8848 21.0323 9.04694 23.3379 6.26444 24.4836L9.04803 32.0403L9.10983 32.0841C9.38837 32.2835 9.72236 32.3907 10.0649 32.3907C10.4075 32.3907 10.7415 32.2835 11.0201 32.0841L12.2472 31.2052C12.7116 30.8727 13.2683 30.6938 13.8395 30.6938C14.4106 30.6938 14.9674 30.8727 15.4317 31.2052L16.5408 31.9998C16.6698 32.0917 16.8087 32.1634 16.9531 32.2142V20.2202V20.2169ZM18.0469 20.2344V32.2115C18.1901 32.1601 18.3274 32.0884 18.4554 31.9966L19.7744 31.0455C20.2389 30.7109 20.7967 30.5305 21.3692 30.5296C21.9416 30.5287 22.4999 30.7074 22.9655 31.0406L24.4223 32.0841C24.626 32.2299 24.8604 32.3272 25.1076 32.3685C25.3547 32.4097 25.608 32.3938 25.848 32.322L28.677 24.6427L18.0469 20.2327V20.2344ZM23.5156 24.0625C22.3081 24.0625 21.3281 25.0425 21.3281 26.25C21.3281 27.4575 22.3081 28.4375 23.5156 28.4375C24.7231 28.4375 25.7031 27.4575 25.7031 26.25C25.7031 25.0425 24.7231 24.0625 23.5156 24.0625ZM23.5156 8.20312H20.7812V12.0312C20.7812 12.128 20.7554 12.2229 20.7067 12.3065C20.6579 12.39 20.5879 12.4591 20.5038 12.5067C20.4196 12.5544 20.3243 12.5788 20.2276 12.5777C20.1309 12.5765 20.0362 12.5496 19.9533 12.4999L17.5 11.0283L15.0467 12.4999C14.9638 12.5502 14.8691 12.5774 14.7722 12.5789C14.6753 12.5804 14.5797 12.556 14.4954 12.5082C14.411 12.4605 14.3409 12.3911 14.2923 12.3073C14.2437 12.2234 14.2183 12.1282 14.2187 12.0312V8.20312H11.4844V12.5781C11.4844 12.7232 11.4267 12.8623 11.3242 12.9648C11.2216 13.0674 11.0825 13.125 10.9375 13.125H7.10936V19.0307L16.8711 14.9811C17.0705 14.8985 17.2842 14.856 17.5 14.856C17.7158 14.856 17.9295 14.8985 18.1289 14.9811L27.8906 19.0307V13.125H24.0625C23.9174 13.125 23.7783 13.0674 23.6758 12.9648C23.5732 12.8623 23.5156 12.7232 23.5156 12.5781V8.20312ZM10.3906 8.20312H7.65623C7.51119 8.20312 7.37209 8.26074 7.26953 8.3633C7.16697 8.46586 7.10936 8.60496 7.10936 8.75V12.0312H10.3906V8.20312ZM24.6094 8.20312V12.0312H27.8906V8.75C27.8906 8.60496 27.833 8.46586 27.7304 8.3633C27.6279 8.26074 27.4888 8.20312 27.3437 8.20312H24.6094ZM13.6719 2.73438H13.125C13.0531 2.73416 12.9819 2.74816 12.9154 2.77556C12.849 2.80297 12.7886 2.84324 12.7378 2.89407C12.687 2.94489 12.6467 3.00527 12.6193 3.07171C12.5919 3.13816 12.5779 3.20937 12.5781 3.28125V7.10938H22.4219V3.28125C22.4221 3.20937 22.4081 3.13816 22.3807 3.07171C22.3533 3.00527 22.313 2.94489 22.2622 2.89407C22.2113 2.84324 22.151 2.80297 22.0845 2.77556C22.0181 2.74816 21.9469 2.73416 21.875 2.73438H21.3281V4.375C21.3281 4.52004 21.2705 4.65914 21.1679 4.7617C21.0654 4.86426 20.9263 4.92188 20.7812 4.92188H14.2187C14.0737 4.92188 13.9346 4.86426 13.832 4.7617C13.7295 4.65914 13.6719 4.52004 13.6719 4.375V2.73438Z"></path>
+                                        </svg>
+
+                                        <h5>Bulk Cargo Shipping.</h5>
+                                    </div>
+                                </div>
+                                <!-- <div class="swiper-slide">
+                                    <div class="single-service">
+                                        <div class="arrow">
+                                            <svg width="12" height="12" viewbox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M1 11L11 1M11 1C8.77778 1.41667 3.91667 2.25 1 1M11 1C10.5833 3.08333 9.75 7.66667 11 11" stroke-width="1.5" stroke-linecap="round"></path>
+                                            </svg>
+                                        </div>
+                                        <svg class="icon2" width="35" height="35" viewbox="0 0 35 35" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M17.9878 27.0666V27.3851C19.6668 27.5776 21.0074 28.8983 21.2298 30.5674C21.3459 30.5868 21.4514 30.6468 21.5274 30.7367C21.6034 30.8267 21.6449 30.9407 21.6446 31.0585C21.6446 31.1239 21.6318 31.1886 21.6068 31.2491C21.5818 31.3095 21.5452 31.3644 21.499 31.4106C21.4527 31.4568 21.3978 31.4935 21.3374 31.5185C21.277 31.5435 21.2122 31.5563 21.1468 31.5562H13.8333C13.7679 31.5563 13.7031 31.5435 13.6427 31.5185C13.5823 31.4935 13.5274 31.4569 13.4811 31.4106C13.4349 31.3644 13.3982 31.3095 13.3732 31.2491C13.3483 31.1886 13.3355 31.1239 13.3355 31.0585C13.3355 30.8096 13.5147 30.6072 13.7536 30.5674C13.9759 28.8983 15.3132 27.5776 16.9923 27.3851V27.0666C16.9922 27.0012 17.005 26.9364 17.03 26.876C17.055 26.8156 17.0916 26.7607 17.1379 26.7144C17.1841 26.6682 17.239 26.6315 17.2994 26.6066C17.3599 26.5816 17.4246 26.5688 17.49 26.5688C17.5554 26.5687 17.6202 26.5816 17.6806 26.6065C17.741 26.6315 17.796 26.6682 17.8422 26.7144C17.8884 26.7606 17.9251 26.8155 17.9501 26.876C17.9751 26.9364 17.9879 27.0012 17.9878 27.0666Z"></path>
+                                            <path d="M17.6858 0.410889H17.3175C9.4565 0.410889 3.06217 6.80194 3.05219 14.6563V14.6762C3.05219 14.6861 3.05553 14.6961 3.05553 14.7093C3.05888 14.726 3.05888 14.7459 3.06217 14.7657C3.06552 14.779 3.0688 14.7956 3.07543 14.8089C3.07878 14.8255 3.08206 14.8421 3.08869 14.8586C3.09532 14.8719 3.10195 14.8852 3.10858 14.9018C3.11521 14.915 3.12519 14.9283 3.13182 14.9449C3.1418 14.9582 3.15172 14.9682 3.1617 14.9814C3.17161 14.9947 3.18159 15.0079 3.19157 15.0179C3.20483 15.0312 3.21809 15.0444 3.23142 15.0544C3.24134 15.0643 3.24803 15.071 3.25795 15.0777L14.9549 23.5326H13.5513C12.3268 23.5326 11.3314 24.5281 11.3314 25.7492V32.3725C11.3314 33.597 12.3269 34.5891 13.5513 34.5891H21.4289C22.6533 34.5891 23.6488 33.597 23.6488 32.3725V30.0132C23.6488 29.7412 23.4265 29.5155 23.1511 29.5155C22.8757 29.5155 22.6533 29.7412 22.6533 30.0132V32.3725C22.6533 33.0461 22.1059 33.5936 21.4289 33.5936H13.5512C12.8776 33.5936 12.3268 33.0461 12.3268 32.3725V25.7492C12.3268 25.0756 12.8776 24.5281 13.5512 24.5281H21.4288C22.1057 24.5281 22.6533 25.0756 22.6533 25.7492V27.4582C22.6533 27.7336 22.8756 27.9559 23.151 27.9559C23.4264 27.9559 23.6487 27.7335 23.6487 27.4582V25.7492C23.6487 24.5281 22.6532 23.5326 21.4288 23.5326H20.0484L31.7421 15.0777C31.752 15.071 31.7587 15.0644 31.7686 15.0544C31.7827 15.0432 31.7959 15.031 31.8084 15.0179C31.8216 15.008 31.8283 14.9947 31.8382 14.9814C31.8482 14.9682 31.8615 14.9582 31.8681 14.9449C31.878 14.9283 31.8847 14.915 31.8914 14.9018C31.898 14.8852 31.908 14.8719 31.9113 14.8586C31.9179 14.842 31.9245 14.8255 31.9279 14.8089C31.9312 14.7956 31.9378 14.779 31.9378 14.7657C31.9411 14.7458 31.9444 14.7259 31.9444 14.7093C31.9444 14.6961 31.9478 14.6861 31.9478 14.6762V14.6563C31.9379 6.80194 25.5435 0.410889 17.6858 0.410889ZM17.4303 1.40641H17.573C19.8693 1.40641 22.3248 6.51654 22.4277 14.1785H12.5724C12.6752 6.51654 15.1307 1.40641 17.4303 1.40641ZM5.08964 15.1739H11.776L16.0334 23.0847L5.08964 15.1739ZM17.4071 23.5327L12.9042 15.1739H22.0958L17.5962 23.5327H17.4071ZM18.9667 23.0847L23.2274 15.1739H29.9137L18.9667 23.0847Z"></path>
+                                        </svg>
+
+                                        <h5>Reverse Logistics.</h5>
+                                    </div>
+                                </div> -->
+                                <!-- <div class="swiper-slide">
+                                    <div class="single-service">
+                                        <div class="arrow">
+                                            <svg width="12" height="12" viewbox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M1 11L11 1M11 1C8.77778 1.41667 3.91667 2.25 1 1M11 1C10.5833 3.08333 9.75 7.66667 11 11" stroke-width="1.5" stroke-linecap="round"></path>
+                                            </svg>
+                                        </div>
+                                        <svg class="icon2" width="35" height="35" viewbox="0 0 35 35" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M25.9265 23.8265C25.9583 23.8265 25.9954 23.8159 26.0219 23.8L26.2394 23.6727C26.3295 23.6197 26.3613 23.503 26.3083 23.4076C26.2819 23.3637 26.2394 23.3319 26.1898 23.319C26.1402 23.3061 26.0876 23.3131 26.0432 23.3386L25.8257 23.4659C25.7356 23.5189 25.7038 23.6356 25.7568 23.7311C25.7992 23.7894 25.8629 23.8265 25.9265 23.8265ZM24.553 23.9644C24.5848 23.9644 24.6219 23.9538 24.6485 23.9379L25.0992 23.678C25.1894 23.625 25.2212 23.5083 25.1682 23.4129C25.1418 23.369 25.0992 23.3372 25.0497 23.3243C25.0001 23.3114 24.9474 23.3185 24.903 23.3439L24.4522 23.6038C24.3621 23.6568 24.3303 23.7735 24.3833 23.8689C24.4204 23.9273 24.4841 23.9644 24.553 23.9644ZM25.4386 23.6939L24.4575 24.2667C24.3674 24.3197 24.3356 24.4364 24.3886 24.5318C24.4257 24.5955 24.4894 24.6273 24.5583 24.6273C24.5901 24.6273 24.6272 24.6167 24.6538 24.6008L25.6348 24.028C25.725 23.975 25.7568 23.8583 25.7038 23.7629C25.6772 23.7192 25.6347 23.6876 25.5852 23.6747C25.5357 23.6618 25.4831 23.6687 25.4386 23.6939ZM20.6977 22.925L22.9939 24.2508C23.0257 24.2667 23.0575 24.2773 23.0894 24.2773C23.1583 24.2773 23.2219 24.2402 23.2591 24.1818C23.3121 24.0917 23.2803 23.9697 23.1901 23.9167L20.8939 22.5909C20.8038 22.5379 20.6818 22.5697 20.6288 22.6599C20.5757 22.75 20.6075 22.872 20.6977 22.925ZM20.6977 24.3833L22.9939 25.7091C23.0257 25.725 23.0575 25.7356 23.0894 25.7356C23.1583 25.7356 23.2219 25.6985 23.2591 25.6402C23.3121 25.55 23.2803 25.428 23.1901 25.375L20.8939 24.0493C20.8038 23.9962 20.6818 24.028 20.6288 24.1182C20.5757 24.2083 20.6075 24.3303 20.6977 24.3833ZM20.6977 25.8417L22.9939 27.1674C23.0257 27.1833 23.0575 27.1939 23.0894 27.1939C23.1583 27.1939 23.2219 27.1568 23.2591 27.0985C23.3121 27.0083 23.2803 26.8864 23.1901 26.8333L20.8939 25.5076C20.8038 25.4546 20.6818 25.4864 20.6288 25.5765C20.5757 25.6667 20.6075 25.7833 20.6977 25.8417ZM20.6977 27.3L22.9939 28.6258C23.0257 28.6417 23.0575 28.6523 23.0894 28.6523C23.1583 28.6523 23.2219 28.6152 23.2591 28.5568C23.3121 28.4667 23.2803 28.3447 23.1901 28.2917L20.8939 26.9659C20.8038 26.9129 20.6818 26.9447 20.6288 27.0349C20.5757 27.125 20.6075 27.2417 20.6977 27.3ZM20.6977 28.7583L22.9939 30.0841C23.0257 30.1 23.0575 30.1106 23.0894 30.1106C23.1583 30.1106 23.2219 30.0735 23.2591 30.0152C23.3121 29.925 23.2803 29.803 23.1901 29.75L20.8939 28.4243C20.8038 28.3712 20.6818 28.403 20.6288 28.4932C20.5757 28.5833 20.6075 28.7 20.6977 28.7583Z"></path>
+                                            <path d="M34.1091 16.959L30.9167 15.1135L30.922 13.2946V13.2893C30.922 13.284 30.9167 13.2787 30.9167 13.2734C30.9167 13.2469 30.9061 13.2257 30.8954 13.2044C30.8901 13.1938 30.8848 13.1885 30.8795 13.1779C30.8689 13.162 30.853 13.1514 30.8371 13.1355L30.8212 13.1196L12.7803 2.70974C12.7508 2.69153 12.7168 2.68188 12.6822 2.68188C12.6475 2.68188 12.6136 2.69153 12.5841 2.70974L0.922713 9.48702C0.91741 9.49232 0.91741 9.49762 0.912107 9.49762C0.896198 9.50823 0.880289 9.52414 0.86438 9.54535C0.839208 9.57483 0.825968 9.61266 0.827259 9.65141L0.795441 20.7613C0.795441 20.8302 0.832562 20.8938 0.890895 20.931L18.9318 31.3461C18.9636 31.362 18.9954 31.3726 19.0273 31.3726C19.0591 31.3726 19.0909 31.362 19.1227 31.3461L20.6977 30.434L23.9167 32.29C23.9485 32.306 23.9803 32.3166 24.0121 32.3166C24.0439 32.3166 24.0811 32.306 24.1076 32.29C24.1659 32.2529 24.203 32.1893 24.203 32.1203V28.3923L30.6833 24.6272L33.9023 26.4832C33.9341 26.4991 33.9659 26.5097 33.9977 26.5097C34.0295 26.5097 34.0667 26.4991 34.0932 26.4832C34.1515 26.4461 34.1886 26.3825 34.1886 26.3135V17.1287C34.1955 17.0956 34.1914 17.0612 34.1771 17.0306C34.1627 17 34.1389 16.9749 34.1091 16.959ZM18.8417 30.8423L1.18256 20.6499L1.21438 9.9908L18.8682 20.1832L18.8417 30.8423ZM19.0644 19.8438L1.40529 9.65141L12.6848 3.10217L30.3386 13.2946L19.0644 19.8438ZM19.2288 30.8423L19.2606 20.1832L30.5348 13.634L30.5295 14.8908L29.9886 14.5779C29.961 14.5629 29.9299 14.5555 29.8985 14.5567H29.8879C29.8826 14.5567 29.8773 14.562 29.872 14.562H29.8401L29.8083 14.5779C29.803 14.5779 29.7977 14.5779 29.7924 14.5832L21.8538 19.1916L19.8015 20.3847C19.8015 20.3847 19.8015 20.39 19.7962 20.39C19.7697 20.406 19.7485 20.4272 19.7326 20.4537C19.7167 20.4802 19.7114 20.512 19.7114 20.5438V20.5544L19.6848 29.7287C19.6848 29.7393 19.6901 29.7446 19.6901 29.7552C19.6901 29.7658 19.6954 29.7817 19.6954 29.7923C19.6954 29.7976 19.6954 29.8029 19.7007 29.8082C19.7061 29.8188 19.7114 29.8241 19.7167 29.8294C19.722 29.84 19.7273 29.8453 19.7326 29.856C19.7432 29.8666 19.7538 29.8772 19.7697 29.8878L19.7803 29.8984L20.3212 30.2113L19.2288 30.8423ZM25.6136 21.4082C25.6454 21.4241 25.6773 21.4347 25.7091 21.4347C25.7409 21.4347 25.778 21.4241 25.8045 21.4082L26.7591 20.8567C26.8174 20.8196 26.8545 20.756 26.8545 20.687V19.0908L28.1644 18.3325V22.9037L24.2083 25.1999V20.6287L25.5182 19.8703V21.2385C25.5182 21.3075 25.5553 21.3711 25.6136 21.4082ZM25.0197 17.8022L26.3295 17.0385L27.9735 17.9984L26.6636 18.762L25.0197 17.8022ZM28.3553 23.2431L29.4795 23.9219L24.2083 26.9817V25.6507L28.3553 23.2431ZM23.8265 25.5393V27.2416C23.7947 27.2999 23.7947 27.3688 23.8265 27.4272V31.7863L20.0667 29.6173L20.0932 20.8885L23.8265 23.0469V25.5393ZM23.8265 22.5961L20.2841 20.5544L22.0023 19.5575L23.8265 20.634V22.5961ZM24.0174 20.2946L22.3841 19.3294L23.6886 18.5711L25.3273 19.531L24.0174 20.2946ZM24.2136 27.9469V27.4325L29.8667 24.1499L30.3121 24.4044L24.2136 27.9469ZM33.8174 25.9847L30.0576 23.8158L30.0841 15.087L30.5773 15.3734L30.625 15.3999L33.8174 17.2453V25.9847Z"></path>
+                                            <path d="M30.6886 17.1182L32.9848 18.4439C33.0166 18.4599 33.0485 18.4705 33.0803 18.4705C33.1492 18.4705 33.2129 18.4333 33.25 18.375C33.303 18.2849 33.2712 18.1629 33.181 18.1099L30.8848 16.7841C30.7947 16.7311 30.6727 16.7629 30.6197 16.853C30.5666 16.9485 30.5985 17.0652 30.6886 17.1182ZM33.181 19.5682L30.8848 18.2424C30.7947 18.1894 30.6727 18.2212 30.6197 18.3114C30.5666 18.4015 30.5985 18.5235 30.6886 18.5765L32.9848 19.9023C33.0166 19.9182 33.0485 19.9288 33.0803 19.9288C33.1492 19.9288 33.2129 19.8917 33.25 19.8333C33.303 19.7432 33.2712 19.6212 33.181 19.5682ZM33.181 21.0265L30.8848 19.7008C30.7947 19.6477 30.6727 19.6796 30.6197 19.7697C30.5666 19.8599 30.5985 19.9818 30.6886 20.0349L32.9848 21.3606C33.0166 21.3765 33.0485 21.3871 33.0803 21.3871C33.1492 21.3871 33.2129 21.35 33.25 21.2917C33.303 21.2015 33.2712 21.0796 33.181 21.0265ZM33.181 22.4849L30.8848 21.1591C30.7947 21.1061 30.6727 21.1379 30.6197 21.228C30.5666 21.3182 30.5985 21.4402 30.6886 21.4932L32.9848 22.819C33.0166 22.8349 33.0485 22.8455 33.0803 22.8455C33.1492 22.8455 33.2129 22.8083 33.25 22.75C33.303 22.6599 33.2712 22.5379 33.181 22.4849ZM33.181 23.9432L30.8848 22.6174C30.7947 22.5644 30.6727 22.5962 30.6197 22.6864C30.5666 22.7765 30.5985 22.8985 30.6886 22.9515L32.9848 24.2773C33.0166 24.2932 33.0485 24.3038 33.0803 24.3038C33.1492 24.3038 33.2129 24.2667 33.25 24.2083C33.303 24.1182 33.2712 23.9962 33.181 23.9432ZM17.0333 28.1379C17.1394 28.1379 17.2242 28.053 17.2242 27.947V20.9735C17.2242 20.8674 17.1394 20.7826 17.0333 20.7826C16.9273 20.7826 16.8424 20.8674 16.8424 20.9735V27.947C16.8371 28.053 16.9273 28.1379 17.0333 28.1379ZM14.7 26.7909C14.806 26.7909 14.8909 26.7061 14.8909 26.6V19.6265C14.8909 19.5205 14.806 19.4356 14.7 19.4356C14.5939 19.4356 14.5091 19.5205 14.5091 19.6265V26.6C14.5038 26.7061 14.5886 26.7909 14.7 26.7909ZM12.3613 25.444C12.4674 25.444 12.5523 25.3591 12.5523 25.253V18.2796C12.5523 18.1735 12.4674 18.0886 12.3613 18.0886C12.2553 18.0886 12.1704 18.1735 12.1704 18.2796V25.253C12.1704 25.3538 12.2553 25.444 12.3613 25.444ZM10.028 24.0917C10.1341 24.0917 10.2189 24.0068 10.2189 23.9008V16.9273C10.2189 16.8212 10.1341 16.7364 10.028 16.7364C9.92195 16.7364 9.8371 16.8212 9.8371 16.9273V23.9008C9.8318 24.0068 9.92195 24.0917 10.028 24.0917ZM7.68937 22.7447C7.79543 22.7447 7.88028 22.6599 7.88028 22.5538V15.5803C7.88028 15.4743 7.79543 15.3894 7.68937 15.3894C7.58331 15.3894 7.49846 15.4743 7.49846 15.5803V22.5538C7.49846 22.6599 7.58331 22.7447 7.68937 22.7447ZM5.35604 21.3977C5.4621 21.3977 5.54695 21.3129 5.54695 21.2068V14.2333C5.54695 14.1273 5.4621 14.0424 5.35604 14.0424C5.24998 14.0424 5.16513 14.1273 5.16513 14.2333V21.2068C5.16513 21.3129 5.24998 21.3977 5.35604 21.3977ZM3.02271 20.0508C3.12877 20.0508 3.21361 19.9659 3.21361 19.8599V12.8864C3.21361 12.7803 3.12877 12.6955 3.02271 12.6955C2.91664 12.6955 2.8318 12.7803 2.8318 12.8864V19.8599C2.82649 19.9606 2.91664 20.0508 3.02271 20.0508ZM28.053 13.1303L12.7856 4.31668C12.7561 4.29847 12.7221 4.28882 12.6875 4.28882C12.6528 4.28882 12.6189 4.29847 12.5894 4.31668L3.69619 9.48183C3.63786 9.51895 3.60074 9.58259 3.60074 9.65153C3.60074 9.72047 3.63786 9.7841 3.69619 9.82122L18.9636 18.6349C18.9954 18.6508 19.0273 18.6614 19.0591 18.6614C19.0909 18.6614 19.128 18.6508 19.1545 18.6349L28.053 13.4697C28.1113 13.4326 28.1485 13.3689 28.1485 13.3C28.1485 13.2311 28.1113 13.1674 28.053 13.1303Z"></path>
+                                        </svg>
+
+                                        <h5>Container Shipping.</h5>
+                                    </div>
+                                </div> -->
+                                <div class="swiper-slide">
+                                    <div class="single-service">
+                                        <div class="arrow">
+                                            <svg width="12" height="12" viewbox="0 0 12 12" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M1 11L11 1M11 1C8.77778 1.41667 3.91667 2.25 1 1M11 1C10.5833 3.08333 9.75 7.66667 11 11" stroke-width="1.5" stroke-linecap="round"></path>
+                                            </svg>
+                                        </div>
+                                        <svg class="icon2" width="35" height="35" viewbox="0 0 35 35" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M16.0053 28.3231H10.7846C10.6822 28.3231 10.584 28.3638 10.5116 28.4361C10.4392 28.5085 10.3986 28.6067 10.3986 28.7091C10.3986 28.8115 10.4392 28.9097 10.5116 28.9821C10.584 29.0545 10.6822 29.0951 10.7846 29.0951H16.0053C16.1076 29.0951 16.2058 29.0545 16.2782 28.9821C16.3506 28.9097 16.3913 28.8115 16.3913 28.7091C16.3913 28.6067 16.3506 28.5085 16.2782 28.4361C16.2058 28.3638 16.1076 28.3231 16.0053 28.3231ZM13.6227 30.5137H10.7846C10.6822 30.5137 10.584 30.5543 10.5116 30.6267C10.4392 30.6991 10.3986 30.7973 10.3986 30.8997C10.3986 31.0021 10.4392 31.1003 10.5116 31.1727C10.584 31.2451 10.6822 31.2857 10.7846 31.2857H13.6227C13.7251 31.2857 13.8232 31.2451 13.8956 31.1727C13.968 31.1003 14.0087 31.0021 14.0087 30.8997C14.0087 30.7973 13.968 30.6991 13.8956 30.6267C13.8232 30.5543 13.7251 30.5137 13.6227 30.5137ZM23.6893 28.2263H19.6854C19.3951 28.2263 19.1594 28.4621 19.1594 28.7529V30.7345C19.1594 31.0253 19.3951 31.261 19.6854 31.261H23.6898C23.9801 31.261 24.2158 31.0253 24.2158 30.735V28.7529C24.2158 28.4621 23.9801 28.2263 23.6893 28.2263Z"></path>
+                                            <path d="M30.9801 13.004C30.1824 6.17587 24.3904 1.02881 17.5 1.02881C10.6019 1.02881 4.80529 6.18565 4.01677 13.0266C3.99 13.2778 4.14647 13.5109 4.38838 13.5825L8.5925 19.3266C8.24616 19.7839 8.05792 20.3414 8.05618 20.915V31.3007C8.05699 32.0087 8.33859 32.6874 8.83919 33.188C9.33979 33.6886 10.0185 33.9702 10.7265 33.971H24.2761C24.9841 33.9703 25.663 33.6888 26.1637 33.1882C26.6644 32.6876 26.9461 32.0088 26.9469 31.3007V20.915C26.9451 20.344 26.7585 19.789 26.4152 19.3328C27.1646 18.326 30.031 14.477 30.749 13.514C30.8308 13.4623 30.8962 13.3884 30.9375 13.3009C30.9787 13.2134 30.9943 13.1159 30.9822 13.0199V13.0189C30.9815 13.0137 30.9806 13.0086 30.9796 13.0034L30.9801 13.004ZM24.2756 18.2447H23.3085L24.4907 13.9829C24.5339 13.9297 24.5683 13.8699 24.5926 13.8059C24.7671 13.1979 25.1344 12.6631 25.6393 12.2821C26.1441 11.9011 26.7591 11.6945 27.3916 11.6935C27.9248 11.691 28.4483 11.8361 28.904 12.113C29.3598 12.3898 29.7299 12.7875 29.9734 13.2618C26.5434 17.8679 26.0688 18.501 25.866 18.7826C25.4083 18.4353 24.8501 18.2465 24.2756 18.2447ZM17.886 18.2447V14.6026L17.8855 14.599C17.8865 12.9967 19.1929 11.6935 20.7988 11.6935C21.4315 11.6962 22.0463 11.9039 22.551 12.2853C23.0558 12.6668 23.4234 13.2015 23.5988 13.8095C23.6178 13.8743 23.6502 13.9309 23.6899 13.9824L22.5071 18.2447H17.886ZM9.14632 18.7743L5.10588 13.1229C5.36155 12.6869 5.72699 12.3255 6.16579 12.0747C6.60459 11.8239 7.10143 11.6925 7.60684 11.6935C8.90132 11.6935 10.0548 12.5623 10.4074 13.793C10.4259 13.8687 10.4624 13.9371 10.5113 13.9963L11.6946 18.2447H10.7265C10.1335 18.2447 9.59052 18.4454 9.14632 18.7743ZM12.496 18.2447L11.3107 13.9881C11.3518 13.9351 11.3858 13.8748 11.4059 13.8059C11.5805 13.1978 11.948 12.6631 12.453 12.2821C12.9581 11.9012 13.5733 11.6948 14.2059 11.694C14.9769 11.695 15.716 12.0017 16.2612 12.5468C16.8063 13.092 17.113 13.8311 17.114 14.6021V18.2447H12.4971H12.496ZM30.046 12.042C29.7023 11.6854 29.2898 11.4023 28.8336 11.2097C28.3774 11.0171 27.8868 10.9191 27.3916 10.9215C26.8473 10.9226 26.3099 11.0436 25.8176 11.2759C25.3253 11.5081 24.8902 11.846 24.5432 12.2654C24.4213 7.96344 22.8529 4.22204 19.2186 1.91565C24.5932 2.63624 28.9676 6.69315 30.046 12.042ZM15.7819 1.91513C12.1085 4.28226 10.5772 7.93565 10.4552 12.2705C10.1089 11.8502 9.67409 11.5114 9.18184 11.2783C8.6896 11.0452 8.152 10.9235 7.60735 10.922C6.58257 10.922 5.63449 11.3358 4.9525 12.0461C6.02927 6.69521 10.4058 2.63624 15.7819 1.91513ZM26.1749 31.3007C26.1743 31.8041 25.9741 32.2867 25.6181 32.6426C25.2621 32.9984 24.7795 33.1985 24.2761 33.199H10.7265C10.2232 33.1984 9.74069 32.9982 9.38482 32.6424C9.02895 32.2865 8.82878 31.804 8.82824 31.3007V20.915C8.82878 20.4117 9.02895 19.9292 9.38482 19.5733C9.74069 19.2175 10.2232 19.0173 10.7265 19.0167H15.1962V23.1359C15.1962 23.4473 15.5343 23.6414 15.8035 23.4839L17.2967 22.6109C17.3585 22.5747 17.4289 22.5556 17.5005 22.5556C17.5722 22.5556 17.6425 22.5747 17.7043 22.6109L19.198 23.4839C19.2593 23.5197 19.329 23.5388 19.4 23.5391C19.471 23.5395 19.5408 23.5211 19.6024 23.4858C19.664 23.4505 19.7153 23.3995 19.7509 23.3381C19.7865 23.2767 19.8053 23.2069 19.8054 23.1359V19.0167H24.2761C25.3024 19.0167 26.1749 19.8722 26.1749 20.915V31.3007Z"></path>
+                                        </svg>
+
+                                        <h5>Freight Forwarding.</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="service-content-area">
+                            <div class="service-content show">
+                                <p><span>Ocean freight is a method of transporting goods via sea using cargo
+                                        ships.</span>
+                                    It is one of
+                                    the most common and cost-effective ways to move large volumes of goods
+                                    internationally
+                                </p>
+                                <a class="btn-area" href="solution-01.html">
+                                    <div class="icon">
+                                        <svg width="10" height="10" viewbox="0 0 10 10" xmlns="http://www.w3.org/2000/svg">
+                                            <g>
+                                                <path d="M5.83333 4.16667V0H4.16667V4.16667H0V5.83333H4.16667V10H5.83333V5.83333H10V4.16667H5.83333Z"></path>
+                                            </g>
+                                        </svg>
+                                    </div>
+                                    <div class="btn-content">
+                                        <span>View More</span>
+                                        <p>Delivering Excellence</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="service-content">
+                                <p> <span>Door-to-door logistics is a service that manages the transport of goods
+                                        directly
+                                        from sender to receiver.</span> It provides a smooth, reliable, and efficient
+                                    way to
+                                    deliver shipments without multiple handling points.
+                                </p>
+                                <a href="solution-01.html" class="btn-area">
+                                    <div class="icon">
+                                        <svg width="10" height="10" viewbox="0 0 10 10" xmlns="http://www.w3.org/2000/svg">
+                                            <g>
+                                                <path d="M5.83333 4.16667V0H4.16667V4.16667H0V5.83333H4.16667V10H5.83333V5.83333H10V4.16667H5.83333Z">
+                                                </path>
+                                            </g>
+                                        </svg>
+                                    </div>
+                                    <div class="btn-content">
+                                        <span>View More</span>
+                                        <p>Delivering Excellence</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="service-content">
+                                <p><span>Bulk cargo shipping is a method of transporting large quantities of unpackaged
+                                        goods
+                                        by sea.</span> It is widely used for commodities like coal, grains, and minerals
+                                    that
+                                    require cost-effective large-scale movement.
+                                </p>
+                                <a href="solution-01.html" class="btn-area">
+                                    <div class="icon">
+                                        <svg width="10" height="10" viewbox="0 0 10 10" xmlns="http://www.w3.org/2000/svg">
+                                            <g>
+                                                <path d="M5.83333 4.16667V0H4.16667V4.16667H0V5.83333H4.16667V10H5.83333V5.83333H10V4.16667H5.83333Z">
+                                                </path>
+                                            </g>
+                                        </svg>
+                                    </div>
+                                    <div class="btn-content">
+                                        <span>View More</span>
+                                        <p>Delivering Excellence</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="service-content">
+                                <p><span>Reverse logistics is the process of moving goods from customers back to the
+                                        seller or
+                                        manufacturer.</span> It includes returns, recycling, and refurbishment to
+                                    maximize value
+                                    and sustainability.
+                                </p>
+                                <a href="solution-01.html" class="btn-area">
+                                    <div class="icon">
+                                        <svg width="10" height="10" viewbox="0 0 10 10" xmlns="http://www.w3.org/2000/svg">
+                                            <g>
+                                                <path d="M5.83333 4.16667V0H4.16667V4.16667H0V5.83333H4.16667V10H5.83333V5.83333H10V4.16667H5.83333Z">
+                                                </path>
+                                            </g>
+                                        </svg>
+                                    </div>
+                                    <div class="btn-content">
+                                        <span>View More</span>
+                                        <p>Delivering Excellence</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="service-content">
+                                <p><span>Container shipping is the use of standardized containers to transport goods
+                                        securely
+                                        across sea routes.</span> It allows efficient, flexible, and scalable movement
+                                    of cargo for
+                                    international trade.
+                                </p>
+                                <a href="solution-01.html" class="btn-area">
+                                    <div class="icon">
+                                        <svg width="10" height="10" viewbox="0 0 10 10" xmlns="http://www.w3.org/2000/svg">
+                                            <g>
+                                                <path d="M5.83333 4.16667V0H4.16667V4.16667H0V5.83333H4.16667V10H5.83333V5.83333H10V4.16667H5.83333Z">
+                                                </path>
+                                            </g>
+                                        </svg>
+                                    </div>
+                                    <div class="btn-content">
+                                        <span>View More</span>
+                                        <p>Delivering Excellence</p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="service-content">
+                                <p><span>Freight forwarding is a service that manages the organization and coordination
+                                        of
+                                        cargo shipments globally.</span> It ensures smooth delivery by handling customs,
+                                    paperwork,
+                                    and transport routes.
+                                </p>
+                                <a href="#" class="btn-area">
+                                    <div class="icon">
+                                        <svg width="10" height="10" viewbox="0 0 10 10" xmlns="http://www.w3.org/2000/svg">
+                                            <g>
+                                                <path d="M5.83333 4.16667V0H4.16667V4.16667H0V5.83333H4.16667V10H5.83333V5.83333H10V4.16667H5.83333Z">
+                                                </path>
+                                            </g>
+                                        </svg>
+                                    </div>
+                                    <div class="btn-content">
+                                        <span>View More</span>
+                                        <p>Delivering Excellence</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5 wow animate fadeInRight" data-wow-delay="400ms" data-wow-duration="1500ms">
+                    <div class="service-img-list">
+                        <div class="service-img-wrapper show">
+                            <div class="service-img-area">
+                                <div class="service-img1">
+                                    <img src="assets/img/home2/h2-service-img1.png" alt="">
+                                </div>
+                            </div>
+                            <h5 class="top-text">Container Size</h5>
+                            <ul class="bottom-text">
+                                <li> <svg width="173" height="20" viewbox="0 0 173 20" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M168 10.5L173 12.8868V7.11325L168 9.5V10.5ZM1 10L0.665518 9.62835L0.252576 10L0.665518 10.3716L1 10ZM10.6655 19.3716C10.8708 19.5564 11.1869 19.5397 11.3716 19.3345C11.5564 19.1292 11.5397 18.8131 11.3345 18.6284L11 19L10.6655 19.3716ZM11.3345 1.37165C11.5397 1.18692 11.5564 0.870773 11.3716 0.665518C11.1869 0.460263 10.8708 0.443623 10.6655 0.628353L11 1L11.3345 1.37165ZM168.5 10V9.5H1V10V10.5H168.5V10ZM1 10L0.665518 10.3716L10.6655 19.3716L11 19L11.3345 18.6284L1.33448 9.62835L1 10ZM1 10L1.33448 10.3716L11.3345 1.37165L11 1L10.6655 0.628353L0.665518 9.62835L1 10Z"></path>
+                                    </svg>
+                                </li>
+                                <li>
+                                    (20ft & 40ft)
+                                </li>
+                                <li>
+                                    <svg width="173" height="20" viewbox="0 0 173 20" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M5 10.5L0 12.8868V7.11325L5 9.5V10.5ZM172 10L172.334 9.62835L172.747 10L172.334 10.3716L172 10ZM162.334 19.3716C162.129 19.5564 161.813 19.5397 161.628 19.3345C161.444 19.1292 161.46 18.8131 161.666 18.6284L162 19L162.334 19.3716ZM161.666 1.37165C161.46 1.18692 161.444 0.870773 161.628 0.665518C161.813 0.460263 162.129 0.443623 162.334 0.628353L162 1L161.666 1.37165ZM4.5 10V9.5H172V10V10.5H4.5V10ZM172 10L172.334 10.3716L162.334 19.3716L162 19L161.666 18.6284L171.666 9.62835L172 10ZM172 10L171.666 10.3716L161.666 1.37165L162 1L162.334 0.628353L172.334 9.62835L172 10Z"></path>
+                                    </svg>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="service-img-wrapper">
+                            <div class="service-img-area">
+                                <div class="service-img1">
+                                    <img src="assets/img/home2/h2-service-img2.png" alt="">
+                                </div>
+                            </div>
+                            <h5 class="top-text">Container Size</h5>
+                            <ul class="bottom-text">
+                                <li> <svg width="173" height="20" viewbox="0 0 173 20" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M168 10.5L173 12.8868V7.11325L168 9.5V10.5ZM1 10L0.665518 9.62835L0.252576 10L0.665518 10.3716L1 10ZM10.6655 19.3716C10.8708 19.5564 11.1869 19.5397 11.3716 19.3345C11.5564 19.1292 11.5397 18.8131 11.3345 18.6284L11 19L10.6655 19.3716ZM11.3345 1.37165C11.5397 1.18692 11.5564 0.870773 11.3716 0.665518C11.1869 0.460263 10.8708 0.443623 10.6655 0.628353L11 1L11.3345 1.37165ZM168.5 10V9.5H1V10V10.5H168.5V10ZM1 10L0.665518 10.3716L10.6655 19.3716L11 19L11.3345 18.6284L1.33448 9.62835L1 10ZM1 10L1.33448 10.3716L11.3345 1.37165L11 1L10.6655 0.628353L0.665518 9.62835L1 10Z"></path>
+                                    </svg>
+                                </li>
+                                <li>
+                                    (25ft & 45ft)
+                                </li>
+                                <li>
+                                    <svg width="173" height="20" viewbox="0 0 173 20" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M5 10.5L0 12.8868V7.11325L5 9.5V10.5ZM172 10L172.334 9.62835L172.747 10L172.334 10.3716L172 10ZM162.334 19.3716C162.129 19.5564 161.813 19.5397 161.628 19.3345C161.444 19.1292 161.46 18.8131 161.666 18.6284L162 19L162.334 19.3716ZM161.666 1.37165C161.46 1.18692 161.444 0.870773 161.628 0.665518C161.813 0.460263 162.129 0.443623 162.334 0.628353L162 1L161.666 1.37165ZM4.5 10V9.5H172V10V10.5H4.5V10ZM172 10L172.334 10.3716L162.334 19.3716L162 19L161.666 18.6284L171.666 9.62835L172 10ZM172 10L171.666 10.3716L161.666 1.37165L162 1L162.334 0.628353L172.334 9.62835L172 10Z"></path>
+                                    </svg>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="service-img-wrapper">
+                            <div class="service-img-area">
+                                <div class="service-img1">
+                                    <img src="assets/img/home2/h2-service-img3.png" alt="">
+                                </div>
+                            </div>
+                            <h5 class="top-text">Container Size</h5>
+                            <ul class="bottom-text">
+                                <li> <svg width="173" height="20" viewbox="0 0 173 20" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M168 10.5L173 12.8868V7.11325L168 9.5V10.5ZM1 10L0.665518 9.62835L0.252576 10L0.665518 10.3716L1 10ZM10.6655 19.3716C10.8708 19.5564 11.1869 19.5397 11.3716 19.3345C11.5564 19.1292 11.5397 18.8131 11.3345 18.6284L11 19L10.6655 19.3716ZM11.3345 1.37165C11.5397 1.18692 11.5564 0.870773 11.3716 0.665518C11.1869 0.460263 10.8708 0.443623 10.6655 0.628353L11 1L11.3345 1.37165ZM168.5 10V9.5H1V10V10.5H168.5V10ZM1 10L0.665518 10.3716L10.6655 19.3716L11 19L11.3345 18.6284L1.33448 9.62835L1 10ZM1 10L1.33448 10.3716L11.3345 1.37165L11 1L10.6655 0.628353L0.665518 9.62835L1 10Z"></path>
+                                    </svg>
+                                </li>
+                                <li>
+                                    (30ft & 40ft)
+                                </li>
+                                <li>
+                                    <svg width="173" height="20" viewbox="0 0 173 20" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M5 10.5L0 12.8868V7.11325L5 9.5V10.5ZM172 10L172.334 9.62835L172.747 10L172.334 10.3716L172 10ZM162.334 19.3716C162.129 19.5564 161.813 19.5397 161.628 19.3345C161.444 19.1292 161.46 18.8131 161.666 18.6284L162 19L162.334 19.3716ZM161.666 1.37165C161.46 1.18692 161.444 0.870773 161.628 0.665518C161.813 0.460263 162.129 0.443623 162.334 0.628353L162 1L161.666 1.37165ZM4.5 10V9.5H172V10V10.5H4.5V10ZM172 10L172.334 10.3716L162.334 19.3716L162 19L161.666 18.6284L171.666 9.62835L172 10ZM172 10L171.666 10.3716L161.666 1.37165L162 1L162.334 0.628353L172.334 9.62835L172 10Z"></path>
+                                    </svg>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="service-img-wrapper">
+                            <div class="service-img-area">
+                                <div class="service-img1">
+                                    <img src="assets/img/home2/h2-service-img4.png" alt="">
+                                </div>
+                            </div>
+                            <h5 class="top-text">Container Size</h5>
+                            <ul class="bottom-text">
+                                <li> <svg width="173" height="20" viewbox="0 0 173 20" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M168 10.5L173 12.8868V7.11325L168 9.5V10.5ZM1 10L0.665518 9.62835L0.252576 10L0.665518 10.3716L1 10ZM10.6655 19.3716C10.8708 19.5564 11.1869 19.5397 11.3716 19.3345C11.5564 19.1292 11.5397 18.8131 11.3345 18.6284L11 19L10.6655 19.3716ZM11.3345 1.37165C11.5397 1.18692 11.5564 0.870773 11.3716 0.665518C11.1869 0.460263 10.8708 0.443623 10.6655 0.628353L11 1L11.3345 1.37165ZM168.5 10V9.5H1V10V10.5H168.5V10ZM1 10L0.665518 10.3716L10.6655 19.3716L11 19L11.3345 18.6284L1.33448 9.62835L1 10ZM1 10L1.33448 10.3716L11.3345 1.37165L11 1L10.6655 0.628353L0.665518 9.62835L1 10Z"></path>
+                                    </svg>
+                                </li>
+                                <li>
+                                    (20ft & 30ft)
+                                </li>
+                                <li>
+                                    <svg width="173" height="20" viewbox="0 0 173 20" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M5 10.5L0 12.8868V7.11325L5 9.5V10.5ZM172 10L172.334 9.62835L172.747 10L172.334 10.3716L172 10ZM162.334 19.3716C162.129 19.5564 161.813 19.5397 161.628 19.3345C161.444 19.1292 161.46 18.8131 161.666 18.6284L162 19L162.334 19.3716ZM161.666 1.37165C161.46 1.18692 161.444 0.870773 161.628 0.665518C161.813 0.460263 162.129 0.443623 162.334 0.628353L162 1L161.666 1.37165ZM4.5 10V9.5H172V10V10.5H4.5V10ZM172 10L172.334 10.3716L162.334 19.3716L162 19L161.666 18.6284L171.666 9.62835L172 10ZM172 10L171.666 10.3716L161.666 1.37165L162 1L162.334 0.628353L172.334 9.62835L172 10Z"></path>
+                                    </svg>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="service-img-wrapper">
+                            <div class="service-img-area">
+                                <div class="service-img1">
+                                    <img src="assets/img/home2/h2-service-img5.png" alt="">
+                                </div>
+                            </div>
+                            <h5 class="top-text">Container Size</h5>
+                            <ul class="bottom-text">
+                                <li> <svg width="173" height="20" viewbox="0 0 173 20" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M168 10.5L173 12.8868V7.11325L168 9.5V10.5ZM1 10L0.665518 9.62835L0.252576 10L0.665518 10.3716L1 10ZM10.6655 19.3716C10.8708 19.5564 11.1869 19.5397 11.3716 19.3345C11.5564 19.1292 11.5397 18.8131 11.3345 18.6284L11 19L10.6655 19.3716ZM11.3345 1.37165C11.5397 1.18692 11.5564 0.870773 11.3716 0.665518C11.1869 0.460263 10.8708 0.443623 10.6655 0.628353L11 1L11.3345 1.37165ZM168.5 10V9.5H1V10V10.5H168.5V10ZM1 10L0.665518 10.3716L10.6655 19.3716L11 19L11.3345 18.6284L1.33448 9.62835L1 10ZM1 10L1.33448 10.3716L11.3345 1.37165L11 1L10.6655 0.628353L0.665518 9.62835L1 10Z"></path>
+                                    </svg>
+                                </li>
+                                <li>
+                                    (50ft & 60ft)
+                                </li>
+                                <li>
+                                    <svg width="173" height="20" viewbox="0 0 173 20" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M5 10.5L0 12.8868V7.11325L5 9.5V10.5ZM172 10L172.334 9.62835L172.747 10L172.334 10.3716L172 10ZM162.334 19.3716C162.129 19.5564 161.813 19.5397 161.628 19.3345C161.444 19.1292 161.46 18.8131 161.666 18.6284L162 19L162.334 19.3716ZM161.666 1.37165C161.46 1.18692 161.444 0.870773 161.628 0.665518C161.813 0.460263 162.129 0.443623 162.334 0.628353L162 1L161.666 1.37165ZM4.5 10V9.5H172V10V10.5H4.5V10ZM172 10L172.334 10.3716L162.334 19.3716L162 19L161.666 18.6284L171.666 9.62835L172 10ZM172 10L171.666 10.3716L161.666 1.37165L162 1L162.334 0.628353L172.334 9.62835L172 10Z"></path>
+                                    </svg>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="service-img-wrapper">
+                            <div class="service-img-area">
+                                <div class="service-img1">
+                                    <img src="assets/img/home2/h2-service-img6.png" alt="">
+                                </div>
+                            </div>
+                            <h5 class="top-text">Container Size</h5>
+                            <ul class="bottom-text">
+                                <li> <svg width="173" height="20" viewbox="0 0 173 20" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M168 10.5L173 12.8868V7.11325L168 9.5V10.5ZM1 10L0.665518 9.62835L0.252576 10L0.665518 10.3716L1 10ZM10.6655 19.3716C10.8708 19.5564 11.1869 19.5397 11.3716 19.3345C11.5564 19.1292 11.5397 18.8131 11.3345 18.6284L11 19L10.6655 19.3716ZM11.3345 1.37165C11.5397 1.18692 11.5564 0.870773 11.3716 0.665518C11.1869 0.460263 10.8708 0.443623 10.6655 0.628353L11 1L11.3345 1.37165ZM168.5 10V9.5H1V10V10.5H168.5V10ZM1 10L0.665518 10.3716L10.6655 19.3716L11 19L11.3345 18.6284L1.33448 9.62835L1 10ZM1 10L1.33448 10.3716L11.3345 1.37165L11 1L10.6655 0.628353L0.665518 9.62835L1 10Z"></path>
+                                    </svg>
+                                </li>
+                                <li>
+                                    (40ft & 60ft)
+                                </li>
+                                <li>
+                                    <svg width="173" height="20" viewbox="0 0 173 20" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M5 10.5L0 12.8868V7.11325L5 9.5V10.5ZM172 10L172.334 9.62835L172.747 10L172.334 10.3716L172 10ZM162.334 19.3716C162.129 19.5564 161.813 19.5397 161.628 19.3345C161.444 19.1292 161.46 18.8131 161.666 18.6284L162 19L162.334 19.3716ZM161.666 1.37165C161.46 1.18692 161.444 0.870773 161.628 0.665518C161.813 0.460263 162.129 0.443623 162.334 0.628353L162 1L161.666 1.37165ZM4.5 10V9.5H172V10V10.5H4.5V10ZM172 10L172.334 10.3716L162.334 19.3716L162 19L161.666 18.6284L171.666 9.62835L172 10ZM172 10L171.666 10.3716L161.666 1.37165L162 1L162.334 0.628353L172.334 9.62835L172 10Z"></path>
+                                    </svg>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+   
+     <div class="industries-section mb-120">
+        <div class="container">
+            <div class="section-title text-center mb-60 wow animate fadeInDown" data-wow-delay="400ms" data-wow-duration="1500ms">
+                <h2>Industries Served.</h2>
+                <p>We are more than a logistics provider; we are your trusted partner in global maritime transport
+                    solutions.</p>
+            </div>
+            <div class="swiper industries-slider">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="industries-card">
+                            <div class="industries-img-wrap">
+                                <img src="assets/img/home2/home2-industries-img1.png" alt="">
+                            </div>
+                            <div class="industries-content">
+                                <div class="content">
+                                    <svg width="50" height="50" viewbox="0 0 50 50" xmlns="http://www.w3.org/2000/svg">
+                                        <g>
+                                            <path d="M12.6468 16.9769L24.2329 24.1222C24.914 24.5423 24.914 25.5086 24.2329 25.9287L12.6468 33.0739V16.9769ZM10.4474 15.6205V34.4304L1.68871 39.832C0.956452 40.2836 0 39.772 0 38.9288V11.122C0 10.2788 0.956452 9.76726 1.68871 10.2188L10.4474 15.6205ZM12.6468 35.6068L25.4108 27.735C27.4539 26.475 27.4539 23.5759 25.4108 22.3158L12.6468 14.4441V11.122C12.6468 10.2788 13.6032 9.76726 14.3355 10.2188L36.8797 24.1222C37.5608 24.5423 37.5608 25.5086 36.8797 25.9287L14.3355 39.832C13.6033 40.2836 12.6468 39.772 12.6468 38.9288V35.6068Z"></path>
+                                            <path d="M25.2561 35.556L38.0201 27.6842C40.0633 26.4242 40.0633 23.5251 38.0201 22.265L25.2561 14.3933V11.0712C25.2561 10.228 26.2126 9.71648 26.9448 10.168L49.4891 24.0715C50.1702 24.4915 50.1702 25.4579 49.4891 25.8779L26.9448 39.7812C26.2126 40.2328 25.2561 39.7212 25.2561 38.8781V35.556Z"></path>
+                                        </g>
+                                    </svg>
+                                    <h3>
+                                        <a href="industries-details.html">Agriculture</a>
+                                    </h3>
+                                </div>
+                                <ul class="industries-list-wrap">
+                                    <li>
+                                        <svg width="18" height="18" viewbox="0 0 18 18" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M5.08817 10.5273L6.80717 13.0169C7.87403 11.4757 12.6161 3.9476 15.3428 0.450195C12.5189 5.78432 10.0641 11.349 7.85621 16.9409C7.53941 17.743 6.40973 17.7567 6.07709 16.9611C5.02535 14.4465 3.89459 11.9475 2.65781 9.5195C3.54701 9.34165 4.49525 9.63811 5.08799 10.5273H5.08817Z"></path>
+                                        </svg>
+                                        Refrigerated Containers
+                                    </li>
+                                    <li>
+                                        <svg width="18" height="18" viewbox="0 0 18 18" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M5.08817 10.5273L6.80717 13.0169C7.87403 11.4757 12.6161 3.9476 15.3428 0.450195C12.5189 5.78432 10.0641 11.349 7.85621 16.9409C7.53941 17.743 6.40973 17.7567 6.07709 16.9611C5.02535 14.4465 3.89459 11.9475 2.65781 9.5195C3.54701 9.34165 4.49525 9.63811 5.08799 10.5273H5.08817Z"></path>
+                                        </svg>
+                                        Compliance with Regulations
+                                    </li>
+                                    <li>
+                                        <svg width="18" height="18" viewbox="0 0 18 18" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M5.08817 10.5273L6.80717 13.0169C7.87403 11.4757 12.6161 3.9476 15.3428 0.450195C12.5189 5.78432 10.0641 11.349 7.85621 16.9409C7.53941 17.743 6.40973 17.7567 6.07709 16.9611C5.02535 14.4465 3.89459 11.9475 2.65781 9.5195C3.54701 9.34165 4.49525 9.63811 5.08799 10.5273H5.08817Z"></path>
+                                        </svg>
+                                        Sustainability in Food Supply
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="industries-card">
+                            <div class="industries-img-wrap two">
+                                <img src="assets/img/home2/home2-industries-img2.png" alt="">
+                            </div>
+                            <div class="industries-content">
+                                <div class="content">
+                                    <svg width="50" height="50" viewbox="0 0 50 50" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M25 45C27.4705 42.715 29.03 39.4565 29.03 35.8335C29.03 32.2105 27.4705 28.9515 25 26.6665H35.8335C40.895 26.6665 45 30.7715 45 35.8335C45 40.895 40.895 45 35.8335 45H25ZM5 45C7.4705 42.715 9.03 39.4565 9.03 35.8335C9.03 32.2105 7.4705 28.9515 5 26.6665H15.8335C20.8935 26.6665 24.9985 30.7715 24.9985 35.8335C24.9985 40.895 20.8935 45 15.8335 45H5ZM25 23.3335C27.4705 21.048 29.03 17.79 29.03 14.167C29.03 10.544 27.4705 7.285 25 5H35.8335C40.895 5 45 9.1045 45 14.1665C45 19.2285 40.895 23.333 35.8335 23.333L25 23.3335ZM5 23.3335C7.4705 21.048 9.03 17.79 9.03 14.167C9.03 10.544 7.4705 7.285 5 5H15.8335C20.8935 5 24.9985 9.1045 24.9985 14.1665C24.9985 19.2285 20.8935 23.333 15.8335 23.333L5 23.3335Z"></path>
+                                    </svg>
+                                    <h3>
+                                        <a href="industries-details.html">Energy and Oil & Gas.</a>
+                                    </h3>
+                                </div>
+                                <ul class="industries-list-wrap">
+                                    <li>
+                                        <svg width="18" height="18" viewbox="0 0 18 18" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M5.08817 10.5273L6.80717 13.0169C7.87403 11.4757 12.6161 3.9476 15.3428 0.450195C12.5189 5.78432 10.0641 11.349 7.85621 16.9409C7.53941 17.743 6.40973 17.7567 6.07709 16.9611C5.02535 14.4465 3.89459 11.9475 2.65781 9.5195C3.54701 9.34165 4.49525 9.63811 5.08799 10.5273H5.08817Z"></path>
+                                        </svg>
+                                        Refrigerated Containers
+                                    </li>
+                                    <li>
+                                        <svg width="18" height="18" viewbox="0 0 18 18" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M5.08817 10.5273L6.80717 13.0169C7.87403 11.4757 12.6161 3.9476 15.3428 0.450195C12.5189 5.78432 10.0641 11.349 7.85621 16.9409C7.53941 17.743 6.40973 17.7567 6.07709 16.9611C5.02535 14.4465 3.89459 11.9475 2.65781 9.5195C3.54701 9.34165 4.49525 9.63811 5.08799 10.5273H5.08817Z"></path>
+                                        </svg>
+                                        Compliance with Regulations
+                                    </li>
+                                    <li>
+                                        <svg width="18" height="18" viewbox="0 0 18 18" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M5.08817 10.5273L6.80717 13.0169C7.87403 11.4757 12.6161 3.9476 15.3428 0.450195C12.5189 5.78432 10.0641 11.349 7.85621 16.9409C7.53941 17.743 6.40973 17.7567 6.07709 16.9611C5.02535 14.4465 3.89459 11.9475 2.65781 9.5195C3.54701 9.34165 4.49525 9.63811 5.08799 10.5273H5.08817Z"></path>
+                                        </svg>
+                                        Sustainability in Food Supply
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="industries-card">
+                            <div class="industries-img-wrap three">
+                                <img src="assets/img/home2/home2-industries-img3.png" alt="">
+                            </div>
+                            <div class="industries-content">
+                                <div class="content">
+                                    <svg width="50" height="50" viewbox="0 0 50 50" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M32.381 32.3807C32.381 40.5336 25.7719 47.1427 17.6191 47.1427C9.46625 47.1427 2.85718 40.5336 2.85718 32.3807H32.381ZM17.6191 2.85693C9.46625 2.85693 2.85718 9.466 2.85718 17.6188C2.85718 25.7717 9.46625 32.3807 17.6191 32.3807V2.85693ZM47.1429 17.6188C47.1429 9.466 40.5338 2.85693 32.381 2.85693C24.2282 2.85693 17.6191 9.466 17.6191 17.6188H47.1429ZM32.381 47.1427C40.5338 47.1427 47.1429 40.5336 47.1429 32.3807C47.1429 24.2279 40.5338 17.6188 32.381 17.6188V47.1427Z"></path>
+                                    </svg>
+                                    <h3>
+                                        <a href="industries-details.html">Pharmaceuticals</a>
+                                    </h3>
+                                </div>
+                                <ul class="industries-list-wrap">
+                                    <li>
+                                        <svg width="18" height="18" viewbox="0 0 18 18" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M5.08817 10.5273L6.80717 13.0169C7.87403 11.4757 12.6161 3.9476 15.3428 0.450195C12.5189 5.78432 10.0641 11.349 7.85621 16.9409C7.53941 17.743 6.40973 17.7567 6.07709 16.9611C5.02535 14.4465 3.89459 11.9475 2.65781 9.5195C3.54701 9.34165 4.49525 9.63811 5.08799 10.5273H5.08817Z"></path>
+                                        </svg>
+                                        Refrigerated Containers
+                                    </li>
+                                    <li>
+                                        <svg width="18" height="18" viewbox="0 0 18 18" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M5.08817 10.5273L6.80717 13.0169C7.87403 11.4757 12.6161 3.9476 15.3428 0.450195C12.5189 5.78432 10.0641 11.349 7.85621 16.9409C7.53941 17.743 6.40973 17.7567 6.07709 16.9611C5.02535 14.4465 3.89459 11.9475 2.65781 9.5195C3.54701 9.34165 4.49525 9.63811 5.08799 10.5273H5.08817Z"></path>
+                                        </svg>
+                                        Compliance with Regulations
+                                    </li>
+                                    <li>
+                                        <svg width="18" height="18" viewbox="0 0 18 18" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M5.08817 10.5273L6.80717 13.0169C7.87403 11.4757 12.6161 3.9476 15.3428 0.450195C12.5189 5.78432 10.0641 11.349 7.85621 16.9409C7.53941 17.743 6.40973 17.7567 6.07709 16.9611C5.02535 14.4465 3.89459 11.9475 2.65781 9.5195C3.54701 9.34165 4.49525 9.63811 5.08799 10.5273H5.08817Z"></path>
+                                        </svg>
+                                        Sustainability in Food Supply
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="industries-card">
+                            <div class="industries-img-wrap four">
+                                <img src="assets/img/home2/home2-industries-img4.png" alt="">
+                            </div>
+                            <div class="industries-content">
+                                <div class="content">
+                                    <svg width="50" height="50" viewbox="0 0 50 50" xmlns="http://www.w3.org/2000/svg">
+                                        <g>
+                                            <path d="M12.6468 16.9769L24.2329 24.1222C24.914 24.5423 24.914 25.5086 24.2329 25.9287L12.6468 33.0739V16.9769ZM10.4474 15.6205V34.4304L1.68871 39.832C0.956452 40.2836 0 39.772 0 38.9288V11.122C0 10.2788 0.956452 9.76726 1.68871 10.2188L10.4474 15.6205ZM12.6468 35.6068L25.4108 27.735C27.4539 26.475 27.4539 23.5759 25.4108 22.3158L12.6468 14.4441V11.122C12.6468 10.2788 13.6032 9.76726 14.3355 10.2188L36.8797 24.1222C37.5608 24.5423 37.5608 25.5086 36.8797 25.9287L14.3355 39.832C13.6033 40.2836 12.6468 39.772 12.6468 38.9288V35.6068Z"></path>
+                                            <path d="M25.2561 35.556L38.0201 27.6842C40.0633 26.4242 40.0633 23.5251 38.0201 22.265L25.2561 14.3933V11.0712C25.2561 10.228 26.2126 9.71648 26.9448 10.168L49.4891 24.0715C50.1702 24.4915 50.1702 25.4579 49.4891 25.8779L26.9448 39.7812C26.2126 40.2328 25.2561 39.7212 25.2561 38.8781V35.556Z"></path>
+                                        </g>
+                                    </svg>
+                                    <h3>
+                                        <a href="industries-details.html">Renewable Energy</a>
+                                    </h3>
+                                </div>
+                                <ul class="industries-list-wrap">
+                                    <li>
+                                        <svg width="18" height="18" viewbox="0 0 18 18" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M5.08817 10.5273L6.80717 13.0169C7.87403 11.4757 12.6161 3.9476 15.3428 0.450195C12.5189 5.78432 10.0641 11.349 7.85621 16.9409C7.53941 17.743 6.40973 17.7567 6.07709 16.9611C5.02535 14.4465 3.89459 11.9475 2.65781 9.5195C3.54701 9.34165 4.49525 9.63811 5.08799 10.5273H5.08817Z"></path>
+                                        </svg>
+                                        Refrigerated Containers
+                                    </li>
+                                    <li>
+                                        <svg width="18" height="18" viewbox="0 0 18 18" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M5.08817 10.5273L6.80717 13.0169C7.87403 11.4757 12.6161 3.9476 15.3428 0.450195C12.5189 5.78432 10.0641 11.349 7.85621 16.9409C7.53941 17.743 6.40973 17.7567 6.07709 16.9611C5.02535 14.4465 3.89459 11.9475 2.65781 9.5195C3.54701 9.34165 4.49525 9.63811 5.08799 10.5273H5.08817Z"></path>
+                                        </svg>
+                                        Compliance with Regulations
+                                    </li>
+                                    <li>
+                                        <svg width="18" height="18" viewbox="0 0 18 18" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M5.08817 10.5273L6.80717 13.0169C7.87403 11.4757 12.6161 3.9476 15.3428 0.450195C12.5189 5.78432 10.0641 11.349 7.85621 16.9409C7.53941 17.743 6.40973 17.7567 6.07709 16.9611C5.02535 14.4465 3.89459 11.9475 2.65781 9.5195C3.54701 9.34165 4.49525 9.63811 5.08799 10.5273H5.08817Z"></path>
+                                        </svg>
+                                        Sustainability in Food Supply
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="industries-card">
+                            <div class="industries-img-wrap five">
+                                <img src="assets/img/home2/home2-industries-img5.png" alt="">
+                            </div>
+                            <div class="industries-content">
+                                <div class="content">
+                                    <svg width="50" height="50" viewbox="0 0 50 50" xmlns="http://www.w3.org/2000/svg">
+                                        <g>
+                                            <path d="M12.6468 16.9769L24.2329 24.1222C24.914 24.5423 24.914 25.5086 24.2329 25.9287L12.6468 33.0739V16.9769ZM10.4474 15.6205V34.4304L1.68871 39.832C0.956452 40.2836 0 39.772 0 38.9288V11.122C0 10.2788 0.956452 9.76726 1.68871 10.2188L10.4474 15.6205ZM12.6468 35.6068L25.4108 27.735C27.4539 26.475 27.4539 23.5759 25.4108 22.3158L12.6468 14.4441V11.122C12.6468 10.2788 13.6032 9.76726 14.3355 10.2188L36.8797 24.1222C37.5608 24.5423 37.5608 25.5086 36.8797 25.9287L14.3355 39.832C13.6033 40.2836 12.6468 39.772 12.6468 38.9288V35.6068Z"></path>
+                                            <path d="M25.2561 35.556L38.0201 27.6842C40.0633 26.4242 40.0633 23.5251 38.0201 22.265L25.2561 14.3933V11.0712C25.2561 10.228 26.2126 9.71648 26.9448 10.168L49.4891 24.0715C50.1702 24.4915 50.1702 25.4579 49.4891 25.8779L26.9448 39.7812C26.2126 40.2328 25.2561 39.7212 25.2561 38.8781V35.556Z"></path>
+                                        </g>
+                                    </svg>
+                                    <h3>
+                                        <a href="industries-details.html">Retail & E-commerce</a>
+                                    </h3>
+                                </div>
+                                <ul class="industries-list-wrap">
+                                    <li>
+                                        <svg width="18" height="18" viewbox="0 0 18 18" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M5.08817 10.5273L6.80717 13.0169C7.87403 11.4757 12.6161 3.9476 15.3428 0.450195C12.5189 5.78432 10.0641 11.349 7.85621 16.9409C7.53941 17.743 6.40973 17.7567 6.07709 16.9611C5.02535 14.4465 3.89459 11.9475 2.65781 9.5195C3.54701 9.34165 4.49525 9.63811 5.08799 10.5273H5.08817Z"></path>
+                                        </svg>
+                                        Refrigerated Containers
+                                    </li>
+                                    <li>
+                                        <svg width="18" height="18" viewbox="0 0 18 18" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M5.08817 10.5273L6.80717 13.0169C7.87403 11.4757 12.6161 3.9476 15.3428 0.450195C12.5189 5.78432 10.0641 11.349 7.85621 16.9409C7.53941 17.743 6.40973 17.7567 6.07709 16.9611C5.02535 14.4465 3.89459 11.9475 2.65781 9.5195C3.54701 9.34165 4.49525 9.63811 5.08799 10.5273H5.08817Z"></path>
+                                        </svg>
+                                        Compliance with Regulations
+                                    </li>
+                                    <li>
+                                        <svg width="18" height="18" viewbox="0 0 18 18" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M5.08817 10.5273L6.80717 13.0169C7.87403 11.4757 12.6161 3.9476 15.3428 0.450195C12.5189 5.78432 10.0641 11.349 7.85621 16.9409C7.53941 17.743 6.40973 17.7567 6.07709 16.9611C5.02535 14.4465 3.89459 11.9475 2.65781 9.5195C3.54701 9.34165 4.49525 9.63811 5.08799 10.5273H5.08817Z"></path>
+                                        </svg>
+                                        Sustainability in Food Supply
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="industries-card">
+                            <div class="industries-img-wrap six">
+                                <img src="assets/img/home2/home2-industries-img6.png" alt="">
+                            </div>
+                            <div class="industries-content">
+                                <div class="content">
+                                    <svg width="50" height="50" viewbox="0 0 50 50" xmlns="http://www.w3.org/2000/svg">
+                                        <g>
+                                            <path d="M12.6468 16.9769L24.2329 24.1222C24.914 24.5423 24.914 25.5086 24.2329 25.9287L12.6468 33.0739V16.9769ZM10.4474 15.6205V34.4304L1.68871 39.832C0.956452 40.2836 0 39.772 0 38.9288V11.122C0 10.2788 0.956452 9.76726 1.68871 10.2188L10.4474 15.6205ZM12.6468 35.6068L25.4108 27.735C27.4539 26.475 27.4539 23.5759 25.4108 22.3158L12.6468 14.4441V11.122C12.6468 10.2788 13.6032 9.76726 14.3355 10.2188L36.8797 24.1222C37.5608 24.5423 37.5608 25.5086 36.8797 25.9287L14.3355 39.832C13.6033 40.2836 12.6468 39.772 12.6468 38.9288V35.6068Z"></path>
+                                            <path d="M25.2561 35.556L38.0201 27.6842C40.0633 26.4242 40.0633 23.5251 38.0201 22.265L25.2561 14.3933V11.0712C25.2561 10.228 26.2126 9.71648 26.9448 10.168L49.4891 24.0715C50.1702 24.4915 50.1702 25.4579 49.4891 25.8779L26.9448 39.7812C26.2126 40.2328 25.2561 39.7212 25.2561 38.8781V35.556Z"></path>
+                                        </g>
+                                    </svg>
+                                    <h3>
+                                        <a href="industries-details.html">Forestry and Paper</a>
+                                    </h3>
+                                </div>
+                                <ul class="industries-list-wrap">
+                                    <li>
+                                        <svg width="18" height="18" viewbox="0 0 18 18" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M5.08817 10.5273L6.80717 13.0169C7.87403 11.4757 12.6161 3.9476 15.3428 0.450195C12.5189 5.78432 10.0641 11.349 7.85621 16.9409C7.53941 17.743 6.40973 17.7567 6.07709 16.9611C5.02535 14.4465 3.89459 11.9475 2.65781 9.5195C3.54701 9.34165 4.49525 9.63811 5.08799 10.5273H5.08817Z"></path>
+                                        </svg>
+                                        Refrigerated Containers
+                                    </li>
+                                    <li>
+                                        <svg width="18" height="18" viewbox="0 0 18 18" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M5.08817 10.5273L6.80717 13.0169C7.87403 11.4757 12.6161 3.9476 15.3428 0.450195C12.5189 5.78432 10.0641 11.349 7.85621 16.9409C7.53941 17.743 6.40973 17.7567 6.07709 16.9611C5.02535 14.4465 3.89459 11.9475 2.65781 9.5195C3.54701 9.34165 4.49525 9.63811 5.08799 10.5273H5.08817Z"></path>
+                                        </svg>
+                                        Compliance with Regulations
+                                    </li>
+                                    <li>
+                                        <svg width="18" height="18" viewbox="0 0 18 18" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M5.08817 10.5273L6.80717 13.0169C7.87403 11.4757 12.6161 3.9476 15.3428 0.450195C12.5189 5.78432 10.0641 11.349 7.85621 16.9409C7.53941 17.743 6.40973 17.7567 6.07709 16.9611C5.02535 14.4465 3.89459 11.9475 2.65781 9.5195C3.54701 9.34165 4.49525 9.63811 5.08799 10.5273H5.08817Z"></path>
+                                        </svg>
+                                        Sustainability in Food Supply
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="industries-bottom text-center">
+                <div class="swiper-pagination1 paginations"></div>
+                <!-- <div class="contact-area-wrapper">
+                    <span>
+                        Do you want to connecting the world one mile at a time!
+                        <a href="get-in-touch.html">
+                            message
+                        </a> or
+                        <a href="get-in-touch.html"> call now </a>
+                        us
+                    </span>
+                </div> -->
+            </div>
+        </div>
+    </div>
+
+
+    
+    <div class="home4-faq-section mb-120">
+        <div class="container">
+    
+            
+            <div class="row justify-content-center mb-60 wow animate fadeInDown" data-wow-delay="200ms" data-wow-duration="2000ms">
+                <div class="col-xxl-4">
+                    <div class="section-title text-center">
+                        <h2>Ask & Questions</h2>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="row gy-5 justify-content-between">
+    
+                
+                <div class="col-lg-5 wow animate fadeInLeft" data-wow-delay="200ms" data-wow-duration="2000ms">
+                    <div class="faq-img-area">
+                        <img src="assets/img/home3/home3-about-img.png" alt="FAQ">
+                    </div>
+                </div>
+    
+               
+                <div class="col-xl-6 col-lg-7">
+                    <div class="faq-wrap two">
+                        <div class="accordion accordion-flush" id="accordionFlushExample">
+    
+                        
+                            <div class="accordion-item wow animate fadeInDown" data-wow-delay="200ms" data-wow-duration="1500ms">
+                                <h5 class="accordion-header" id="q1">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#a1" aria-expanded="true">What import and export services do you provide?</button>
+                                </h5>
+                                <div id="a1" class="accordion-collapse collapse show" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">
+                                        We provide complete end-to-end import and export solutions including documentation,
+                                        customs clearance, freight booking, warehousing, packaging, insurance, and
+                                        last-mile delivery.
+                                    </div>
+                                </div>
+                            </div>
+    
+                      
+                            <div class="accordion-item wow animate fadeInDown" data-wow-delay="400ms" data-wow-duration="1500ms">
+                                <h5 class="accordion-header" id="q2">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#a2">What is customs clearance, and how do you assist?</button>
+                                </h5>
+                                <div id="a2" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">
+                                        Customs clearance involves verification of cargo, documentation, duties/taxes,
+                                        and customs approval.  
+                                        <br><br>We assist in:
+                                        <ul>
+                                            <li>Document filing</li>
+                                            <li>Duty/tax assessment</li>
+                                            <li>Coordination with port/ICD</li>
+                                            <li>Fast clearance & delivery</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+    
+                           
+                            <div class="accordion-item wow animate fadeInDown" data-wow-delay="600ms" data-wow-duration="1500ms">
+                                <h5 class="accordion-header" id="q3">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#a3">What are ICD and CFS services?</button>
+                                </h5>
+                                <div id="a3" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">
+                                        <strong>ICD (Inland Container Depot):</strong> Used for handling containers away from the port.  
+                                        <br><strong>CFS (Container Freight Station):</strong> Used for stuffing/de-stuffing, consolidation & inspection.
+                                    </div>
+                                </div>
+                            </div>
+    
+                            
+                            <div class="accordion-item wow animate fadeInDown" data-wow-delay="800ms" data-wow-duration="1500ms">
+                                <h5 class="accordion-header" id="q4">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#a4">Do you offer warehousing and transport services?</button>
+                                </h5>
+                                <div id="a4" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">
+                                        Yes, we provide:
+                                        <ul>
+                                            <li>Short & long-term storage</li>
+                                            <li>Temperature-controlled warehousing (on request)</li>
+                                            <li>Secure inventory management</li>
+                                            <li>Local & national transport</li>
+                                            <li>Door-to-door cargo delivery</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+    
+                           
+                            <div class="accordion-item wow animate fadeInDown" data-wow-delay="1000ms" data-wow-duration="1500ms">
+                                <h5 class="accordion-header" id="q5">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#a5">What is contract logistics?</button>
+                                </h5>
+                                <div id="a5" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">
+                                        Contract logistics includes complete supply chain management:
+                                        <ul>
+                                            <li>Storage & distribution</li>
+                                            <li>Inventory management</li>
+                                            <li>Order processing</li>
+                                            <li>Transport & packaging</li>
+                                            <li>Cost-optimized operations</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+    
+                          
+                            <div class="accordion-item wow animate fadeInDown" data-wow-delay="1200ms" data-wow-duration="1500ms">
+                                <h5 class="accordion-header" id="q6">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#a6">Do you provide cargo insurance?</button>
+                                </h5>
+                                <div id="a6" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">
+                                        Yes, we provide insurance covering damage, loss, theft,
+                                        natural calamities, and transit risks.
+                                    </div>
+                                </div>
+                            </div>
+    
+                            
+                            <div class="accordion-item wow animate fadeInDown" data-wow-delay="1400ms" data-wow-duration="1500ms">
+                                <h5 class="accordion-header" id="q7">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#a7">What is project & heavy-lift logistics?</button>
+                                </h5>
+                                <div id="a7" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">
+                                        We handle oversized and heavy cargo including route surveys,
+                                        special vehicles, cranes, permissions, and port handling.
+                                    </div>
+                                </div>
+                            </div>
+    
+                        </div>
+                    </div>
+                </div>
+    
+            </div>
+    
+           
+            <div class="button-area mt-15 d-flex justify-content-end wow animate fadeInUp" data-wow-delay="200ms" data-wow-duration="1500ms">
+                <a class="enqiry-btn" href="contact.html">
+                    Drop Your Question
+                    <svg width="10" height="10" viewBox="0 0 10 10">
+                        <path d="M1 9L9 1M9 1C7.22222 1.33333 3.33333 2 1 1M9 1C8.66667 2.66667 8 6.33333 9 9" stroke-width="1.5" stroke-linecap="round"></path>
+                    </svg>
+                </a>
+            </div>
+    
+        </div>
+    </div>
+    
+    
+
+    
+    <!-- <div class="partner-section mb-120">
+        <div class="container">
+            <div class="partner-wrap">
+                <div class="marquee">
+                    <div class="marquee__group">
+                        <a href="#"><img src="assets/img/home5/partner-logo-img1.png" alt=""></a>
+                        <a href="#"><img src="assets/img/home5/partner-logo-img2.png" alt=""></a>
+                        <a href="#"><img src="assets/img/home5/partner-logo-img3.png" alt=""></a>
+                        <a href="#"><img src="assets/img/home5/partner-logo-img4.png" alt=""></a>
+                        <a href="#"><img src="assets/img/home5/partner-logo-img5.png" alt=""></a>
+                    </div>
+                    <div aria-hidden="true" class="marquee__group">
+                        <a href="#"><img src="assets/img/home5/partner-logo-img1.png" alt=""></a>
+                        <a href="#"><img src="assets/img/home5/partner-logo-img2.png" alt=""></a>
+                        <a href="#"><img src="assets/img/home5/partner-logo-img3.png" alt=""></a>
+                        <a href="#"><img src="assets/img/home5/partner-logo-img4.png" alt=""></a>
+                        <a href="#"><img src="assets/img/home5/partner-logo-img5.png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    
+
+   
+ <footer class="footer-section style-3">
+        <div class="container">
+            <div class="company-logo-and-contact-area">
+                <div class="row gy-5">
+                    <div class="col-lg-4">
+                        <div class="footer-logo-and-social">
+                            <div class="logo-area">
+                                <a href="index.html"><img src="assets/img/home1/white_1.png" style="width: 120px;" alt=""></a>
+                            </div>
+                            <p>509, Signature Business Park,<br>
+              Postal colony, Chembur East,<br>
+              Mumbai - 400071</p>
+                            <ul class="social-list">
+                                <li><a href="https://www.facebook.com/"><i class="bx bxl-facebook"></i></a></li>
+                                <li><a href="https://www.linkedin.com/"><i class="bx bxl-linkedin"></i></a></li>
+                                <li><a href="https://www.youtube.com/"><i class="bx bxl-youtube"></i></a></li>
+                                <li><a href="https://www.instagram.com/"><i class="bx bxl-instagram-alt"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-8">
+                        <div class="contact-area">
+                            <h2>We are Global Import / Export Service Agency.</h2>
+                            <ul class="mail-and-call">
+                                <li>
+                                    <div class="icon">
+                                        <img src="assets/img/home1/icon/footer-mail.svg" alt="">
+                                    </div>
+                                    <div class="content">
+                                        <p>Send Us Mail</p>
+                                        <a href="mailto:info@ewnsglobal.com">info@ewnsglobal.com</a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="icon">
+                                        <img src="assets/img/home1/icon/footer-call-icon.svg" alt="">
+                                    </div>
+                                    <div class="content">
+                                        <p>Collaborate!</p>
+                                        <a href="tel:+918850798311">(+91) 8850798311</a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <div class="container">
+                <p>Copyright 2025 <a href="https://www.ewnsglobal.com/" target="_blank">EWNS Global Logistics PVT.Ltd</a> | All Right Reserved.</p>
+            </div>
+        </div>
+    </footer>
+  
+ 
+  <style>
+  :root{
+    --eg-bg: linear-gradient(180deg,#041024 0%, #06233b 100%);
+    --muted: #b9c7d6;
+    --accent: #2dd4bf;
+    --max-width: 1200px;
+  }
+  .eg-footer{background:var(--eg-bg); color:#f4fbff; padding-top:48px; font-family:Inter, system-ui, -apple-system; line-height:1.5;}
+  .container{max-width:var(--max-width); margin:0 auto; padding:0 16px;}
+  .eg-footer__top{padding-bottom:28px; border-bottom:1px solid rgba(255,255,255,0.04);}
+  .eg-row{display:flex; flex-wrap:wrap; gap:28px; align-items:flex-start;}
+  .eg-col{flex:1 1 260px; min-width:220px;}
+  .logo-col img{max-width:180px; height:auto; display:block; margin-bottom:14px;}
+  .eg-address{color:var(--muted); font-size:14px; margin-bottom:12px;}
+  .eg-social a{display:inline-flex; align-items:center; justify-content:center; width:36px; height:36px; margin-right:8px; background:rgba(255,255,255,0.03); border-radius:8px; transition:transform .18s ease, background .18s;}
+  .eg-social a:focus, .eg-social a:hover{transform:translateY(-4px); background:rgba(255,255,255,0.06);}
+  .eg-pdf{display:flex; align-items:center; gap:12px; margin-top:16px; text-decoration:none; color:inherit;}
+  .eg-pdf__text small{color:var(--muted); display:block; font-size:12px;}
+  .eg-pdf__text strong{display:block;}
+  .eg-widget h4{color:#fff; margin-bottom:12px; font-size:18px;}
+  .eg-widget ul{list-style:none; padding:0; margin:0;}
+  .eg-widget ul li{margin-bottom:8px;}
+  .eg-widget a{color:var(--muted); text-decoration:none; font-size:15px;}
+  .eg-widget a:hover{color:var(--accent);}
+  .badge{background:rgba(45,212,191,0.12); color:var(--accent); padding:2px 6px; border-radius:8px; font-size:12px; margin-left:6px;}
+  
+  .eg-contact{display:flex; justify-content:space-between; align-items:center; gap:12px; padding:28px 0;}
+  .eg-since{font-size:28px; margin:0; color:#fff;}
+  .eg-contacts-list{list-style:none; display:flex; gap:20px; align-items:center; margin:0; padding:0;}
+  .eg-contacts-list li{display:flex; gap:12px; align-items:center;}
+  .eg-contacts-list img{width:40px; height:40px;}
+  .muted{color:var(--muted); margin:0; font-size:13px;}
+  .eg-email{color:#e6f7f9; text-decoration:none;}
+  .eg-email:hover{color:var(--accent); text-decoration:underline;}
+  
+  .eg-footer__bottom{padding:18px 0; text-align:center;}
+  .eg-footer__bottom p{margin:0; color:var(--muted); font-size:14px;}
+  .eg-footer a{color:inherit;}
+  @media (max-width:880px){
+    .eg-row{flex-direction:column;}
+    .eg-contact{flex-direction:column; align-items:flex-start;}
+    .eg-contacts-list{flex-direction:column; align-items:flex-start; gap:8px;}
+  }
+  </style>
+  
+  
+  <script>
+    
+    document.getElementById('eg-year').textContent = new Date().getFullYear();
+  
+    
+    (function(){
+      const el = document.querySelector('.eg-email');
+      if(!el) return;
+      const email = el.getAttribute('data-email') || '';
+      el.setAttribute('href', 'mailto:' + email);
+      el.textContent = email.replace('@',' [at] '); 
+    })();
+  </script>
+  
+   
+
+   
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="assets/js/jquery-3.7.1.min.js"></script>
+    <script src="assets/js/jquery-ui.js"></script>
+    <script src="assets/js/moment.min.js"></script>
+    <script src="assets/js/daterangepicker.min.js"></script>
+
+    
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <script src="assets/js/slick.js"></script>
+    
+    <script src="assets/js/waypoints.min.js"></script>
+    
+    <script src="assets/js/jquery.counterup.min.js"></script>
+    
+    <script src="assets/js/wow.min.js"></script>
+   
+    <script src="assets/js/gsap.min.js"></script>
+    <script src="assets/js/ScrollTrigger.min.js"></script>
+    <script src="assets/js/jquery.fancybox.min.js"></script>
+   
+    <script src="assets/js/select-dropdown.js"></script>
+    <script src="assets/js/custom.js"></script>
+<script defer="" src="../../../beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"version":"2024.11.0","token":"70834e4b23964a2eaf7cf4ec0e5e9a84","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
+</body>
+
+</html>
