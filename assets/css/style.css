@@ -141,12 +141,13 @@ html {
 body {
   margin: 0;
   padding: 0;
-  font-family: var(--font-suse);
+  font-family: 'Poppins', sans-serif;
   color: var(--title-color);
   font-size: 16px;
   font-weight: 400;
   line-height: 30px;
 }
+
 body.transport-home {
   /* Ball view
   ============= */
@@ -5832,7 +5833,7 @@ header.style-4 .mobile-logo-area .menu-close-btn:hover i {
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 67.86%);
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 10%);
   z-index: 1;
 }
 .home1-banner-section .banner-wrapper .banner-video-area {
@@ -16303,7 +16304,7 @@ header.style-4 .mobile-logo-area .menu-close-btn:hover i {
 45. Home5 Contact Info Section CSS
 ========================================*/
 .home5-contact-info {
-  background-color: var(--primary-color2);
+  background-color: #296699ed;
   position: relative;
   padding: 15px 0;
 }
@@ -24101,4 +24102,33 @@ header.style-4 .mobile-logo-area .menu-close-btn:hover i {
     font-size: 14px;
   }
 }
+
+
+
+
+.header-area .logo-and-menu-area {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.header-area .main-menu {
+  margin-left: auto;
+  margin-right: 190px; /* value adjust kar */
+}
+
+
+.home5-banner-section h1 {
+  font-family: 'Poppins', sans-serif !important;
+  font-weight: 600 !important;
+  letter-spacing: 0.5px !important;
+  font-size: 40px !important;
+}
+
+.home5-banner-section p {
+  font-family: 'Poppins', sans-serif !important;
+  font-weight: 400 !important;
+}
+
+
+
 
