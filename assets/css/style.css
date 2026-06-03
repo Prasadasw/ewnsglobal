@@ -1988,11 +1988,11 @@ header.style-1.sticky {
   }
 }
 header.style-1 .header-logo {
-  width: 280px;
+  width: 370px;
 }
 @media (max-width: 1399px) {
   header.style-1 .header-logo {
-    width: 105px;
+    width: 250px;
   }
 }
 header.style-1 .logo-and-menu-area {
@@ -2576,10 +2576,10 @@ header.style-1 .main-menu > ul > li ul.sub-menu > li.active .dropdown-icon {
   color: var(--primary-color1);
 }
 header.style-1 .main-menu > ul > li ul.sub-menu > li .sub-menu {
-  left: 249px;
-  position: absolute;
-  max-width: 230px;
-  min-width: 230px;
+  left: -160px;
+    position: absolute;
+    max-width: 160px;
+    min-width: 150px;
   background: var(--white-color);
   top: 3px;
   padding: 10px 0;
@@ -24113,7 +24113,7 @@ header.style-4 .mobile-logo-area .menu-close-btn:hover i {
 }
 .header-area .main-menu {
   margin-left: auto;
-  margin-right: 190px; /* value adjust kar */
+  /* margin-right: 190px; */
 }
 
 

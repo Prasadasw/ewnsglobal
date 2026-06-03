@@ -53,6 +53,50 @@
 } */
 
 
+/* Mobile View Fixes for Contact Info Section */
+@media (max-width: 991px) {
+    /* Banner pasun space denyasathi ani overlap thambavnyasathi */
+    .home5-contact-info {
+        margin-top: 40px !important; 
+        margin-bottom: 60px !important;
+        position: relative;
+        z-index: 10;
+    }
+    
+    /* Stack zalelya columns madhe space (gap) denyasathi */
+    .home5-contact-info .row {
+        row-gap: 25px; 
+    }
+    
+    /* Elements la properly center align karnya sathi */
+    .home5-contact-info .left-info {
+        justify-content: center;
+        margin-bottom: 15px;
+    }
+    
+    .home5-contact-info .contact-area {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+        text-align: center;
+    }
+
+    /* Contact-two (jar out of bounds jat asel tar) tya la set karnya sathi */
+    .home5-contact-info .contact-two {
+        position: relative;
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+    }
+
+
+    .rrr{
+        padding-top: 110px;
+    }
+}
+
+
     </style>
 </head>
 
@@ -273,9 +317,9 @@
             </div>
         </div>
         <ul class="social-list">
-            <li><a href="https://www.facebook.com/"><i class="bx bxl-facebook"></i></a></li>
-            <li><a href="https://www.linkedin.com/"><i class="bx bxl-linkedin"></i></a></li>
-            <li><a href="https://www.youtube.com/"><i class="bx bxl-instagram"></i></a></li>
+            <!-- <!-- <li><a href="https://www.facebook.com/"><i class="bx bxl-facebook"></i></a></li> --> -->
+            <li><a href="https://www.linkedin.com/company/ewns-global-logistics-pvt-ltd/" target="_blank"><i class="bx bxl-linkedin"></i></a></li>
+            <li><a href="https://www.instagram.com/ewnsgloballogistics?igsh=ZGV4MzlzbGZvYTJi"><i class="bx bxl-instagram"></i></a></li>
         </ul>
     </div>
     <!-- home1 Banner Section End-->
@@ -352,7 +396,7 @@
     
                     <div class="feature-content">
     
-                        <div class="section-title mb-40 wow animate fadeInDown" data-wow-delay="400ms">
+                        <div class="section-title mb-40 wow animate fadeInDown rrr" data-wow-delay="400ms">
                             <h3>We are a young and dynamic company with 20 years of experience.</h3>
                             <p>We bring proven expertise in logistics, freight forwarding, warehousing, transportation, custom clearance, and door-to-door delivery.</p>
                         </div>
@@ -1304,16 +1348,16 @@
                     <div class="col-lg-4">
                         <div class="footer-logo-and-social">
                             <div class="logo-area">
-                                <a href="index.html"><img src="assets/img/home1/white_1.png" style="width: 200px;" alt=""></a>
+                                <a href="index.html"><img src="assets/img/home1/white_1.png" style="width: 80%;" alt=""></a>
                             </div>
                             <p>509, Signature Business Park,<br>
               Postal colony, Chembur East,<br>
               Mumbai - 400071</p>
                             <ul class="social-list">
-                                <li><a href="https://www.facebook.com/"><i class="bx bxl-facebook"></i></a></li>
-                                <li><a href="https://www.linkedin.com/"><i class="bx bxl-linkedin"></i></a></li>
-                                <li><a href="https://www.youtube.com/"><i class="bx bxl-youtube"></i></a></li>
-                                <li><a href="https://www.instagram.com/"><i class="bx bxl-instagram-alt"></i></a></li>
+                                <!-- <li><a href="https://www.facebook.com/"><i class="bx bxl-facebook"></i></a></li> --> 
+                                <li><a href="https://www.linkedin.com/company/ewns-global-logistics-pvt-ltd/"><i class="bx bxl-linkedin"></i></a></li>
+                                
+                                <li><a href="https://www.instagram.com/ewnsgloballogistics?igsh=ZGV4MzlzbGZvYTJi"><i class="bx bxl-instagram-alt"></i></a></li>
                             </ul>
                         </div>
                     </div>
