@@ -1988,11 +1988,19 @@ header.style-1.sticky {
   }
 }
 header.style-1 .header-logo {
+<<<<<<< HEAD
   width: 370px;
 }
 @media (max-width: 1399px) {
   header.style-1 .header-logo {
     width: 250px;
+=======
+  width: 280px;
+}
+@media (max-width: 1399px) {
+  header.style-1 .header-logo {
+    width: 105px;
+>>>>>>> 7cac828286aad3296f0b792c69a6af9121623d68
   }
 }
 header.style-1 .logo-and-menu-area {
@@ -2576,10 +2584,17 @@ header.style-1 .main-menu > ul > li ul.sub-menu > li.active .dropdown-icon {
   color: var(--primary-color1);
 }
 header.style-1 .main-menu > ul > li ul.sub-menu > li .sub-menu {
+<<<<<<< HEAD
   left: -160px;
     position: absolute;
     max-width: 160px;
     min-width: 150px;
+=======
+  left: 249px;
+  position: absolute;
+  max-width: 230px;
+  min-width: 230px;
+>>>>>>> 7cac828286aad3296f0b792c69a6af9121623d68
   background: var(--white-color);
   top: 3px;
   padding: 10px 0;
@@ -24113,7 +24128,11 @@ header.style-4 .mobile-logo-area .menu-close-btn:hover i {
 }
 .header-area .main-menu {
   margin-left: auto;
+<<<<<<< HEAD
   /* margin-right: 190px; */
+=======
+  margin-right: 190px; /* value adjust kar */
+>>>>>>> 7cac828286aad3296f0b792c69a6af9121623d68
 }
 
 
